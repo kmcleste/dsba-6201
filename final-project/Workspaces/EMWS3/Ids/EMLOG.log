@@ -1,0 +1,550 @@
+*------------------------------------------------------------*
+User:                Kyle McLester
+Date:                April 13, 2022
+Time:                17:21:17
+Site:                70080897
+Platform:            X64_10HOME
+Maintenance Release: 9.04.01M6P111518
+EM Version:          15.1
+* 
+*------------------------------------------------------------*
+* Training Log
+Date:                April 13, 2022
+Time:                17:21:16
+*------------------------------------------------------------*
+11433  proc freq data=EMWS3.Ids_VariableSet noprint;
+11434  table ROLE*LEVEL/out=WORK.IdsMETA;
+11435  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.IDS_VARIABLESET.
+NOTE: The data set WORK.IDSMETA has 6 observations and 4 variables.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.04 seconds
+ 
+ 
+11436  proc print data=WORK.IdsMETA label noobs;
+11437  var ROLE LEVEL COUNT;
+11438  label ROLE = "%sysfunc(sasmsg(sashelp.dmine, meta_role_vlabel, NOQUOTE))" LEVEL = "%sysfunc(sasmsg(sashelp.dmine, meta_level_vlabel, NOQUOTE))" COUNT = "%sysfunc(sasmsg(sashelp.dmine, rpt_count_vlabel, NOQUOTE))";
+11439  title9 ' ';
+11440  title10 "%sysfunc(sasmsg(sashelp.dmine, rpt_varSummary_title  , NOQUOTE))";
+11441  run;
+ 
+NOTE: There were 6 observations read from the data set WORK.IDSMETA.
+NOTE: The PROCEDURE PRINT printed page 1.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+ 
+ 
+11442  title10;
+ 
+11443  data _null_;
+11444  rc = libref("DATA");
+11445  call symput('_librc', strip(put(rc, best.)));
+11446  run;
+ 
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11447  %let _engineTable =;
+11448  data _null_;
+11449  dsid = open("DATA.PVA97NK");
+11450  if dsid then do;
+11451  call symput('_engineTable', attrc(dsid, 'ENGINE'));
+11452  dsid = close(dsid);
+11453  end;
+11454  run;
+ 
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11455  %let _lasrFile=;
+11456  %let _sasiolaFile=;
+11457  data null_;
+11458  length lasrfile sasiolaFile $2000;
+11459  LASRFile = pathname("EMWS3")!!"\"!!"HPDM\"!!"hpdmlasr";
+11460  SASIOLAFile = pathname("EMWS3")!!"\"!!"HPDM\"!!'sasiola.sas';
+11461  call symput('_lasrFile', strip(lasrfile));
+11462  call symput('_sasiolaFile', strip(sasiolafile));
+11463  run;
+ 
+NOTE: The data set WORK.NULL_ has 1 observations and 2 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+ 
+ 
+11464  %let _UseGrid = 0;
+11465  %hpdm_performance(data=DATA.PVA97NK, isGrid=_UseGrid);
+PERFORMANCE  DETAILS
+11466  %put &_UseGrid;
+0
+11467  %let em_idskey =;
+11468  data _null_;
+11469  set EMWS3.Ids_VariableSet;
+11470  where ROLE = 'KEY';
+11471  call symput('em_idskey', strip(tranwrd(name, '"', '""')));
+11472  run;
+ 
+NOTE: There were 0 observations read from the data set EMWS3.IDS_VARIABLESET.
+      WHERE ROLE='KEY';
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11473  %let emexceptionstring=;
+11474  %EmAdviseColumns(DATA.PVA97NK, adviseMode=BASIC, applyIntervalLevelLowerLimit=N, applyMaxPercentMissing=N, applyMaxClassLevels=N, identifyEmptyColumns=N, maxLevelDetection=0, outdata=EMWS3.Ids_EMCMETADEFAULT, newdataflag=N);
+ 
+11475  %let SYSCC = 0;
+11476  %let _dsidTable = 0;
+11477  %let _engineTable =;
+11478  data _null_;
+11479  dsid = open('DATA.PVA97NK');
+11480  call symput('_dsidTable', strip(put(dsid, best.)));
+11481  if dsid then do;
+11482  call symput('_engineTable', attrc(dsid, 'ENGINE'));
+11483  dsid = close(dsid);
+11484  end;
+11485  run;
+ 
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11486  options fmterr;
+11487  data _metaTestView;
+11488  set DATA.PVA97NK;
+11489  if _N_=1 then do;
+11490  output;
+11491  stop;
+11492  end;
+11493  run;
+ 
+NOTE: There were 1 observations read from the data set DATA.PVA97NK.
+NOTE: The data set WORK._METATESTVIEW has 1 observations and 28 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11494  proc contents data=DATA.PVA97NK
+11495  out=WORK.M1RTP4J4 noprint;
+11496  run;
+ 
+NOTE: The data set WORK.M1RTP4J4 has 28 observations and 41 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11497  data WORK.M1RTP4J4;
+11498  length NAME $ 64 TYPE $ 1 LABEL $ 200 FORMAT $ 36 INFORMAT $36 INDEX $ 1 INDEXTYPE $ 9;
+11499  label NAME =;
+11500  set WORK.M1RTP4J4(keep=name type length label format formatl formatd informat informl informd idxusage rename=(type=itype));
+11501  if itype = 1 then type = 'N';
+11502  else type = 'C';
+11503  if formatl > 0 then do;
+11504  if format ne '' then do;
+11505  if type='N' then format = strip(format)!!strip(put(formatl, best12.))!!'.'!!strip(put(formatd, best12.));
+11506  else format = strip(format)!!strip(put(formatl, best12.))!!'.';
+11507  end;
+11508  else format = strip(put(formatl, best12.))!!'.'!!strip(put(formatd, best12.));
+11509  end;
+11510  else if format ne '' then format = strip(format)!!'.';
+11511  if informl > 0 then do;
+11512  if informat ne ' ' then do;
+11513  if type='N' then informat = strip(informat)!!strip(put(informl, best12.))!!'.'!!strip(put(informd, best12.));
+11514  else informat = strip(informat)!!strip(put(informl, best12.))!!'.';
+11515  end;
+11516  else informat = strip(put(informl, best12.))!!'.'!!strip(put(informd, best12.));
+11517  end;
+11518  else if informat ne '' then informat = strip(informat)!!'.';
+11519  if idxusage = 'NONE' then index ="N";
+11520  else index = "Y";
+11521  indextype = idxusage;
+11522  drop idxusage itype formatl formatd informl informd;
+11523  run;
+ 
+NOTE: There were 28 observations read from the data set WORK.M1RTP4J4.
+NOTE: The data set WORK.M1RTP4J4 has 28 observations and 8 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11524  data WORK.M0T5PEG0;
+11525  length UNAME $64;
+11526  set WORK.M0T5PEG0;
+11527  UNAME = upcase(NAME);
+11528  run;
+ 
+NOTE: There were 28 observations read from the data set WORK.M0T5PEG0.
+NOTE: The data set WORK.M0T5PEG0 has 28 observations and 22 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11529  data WORK.M1RTP4J4;
+11530  length UNAME $64;
+11531  set WORK.M1RTP4J4;
+11532  UNAME = upcase(NAME);
+11533  run;
+ 
+NOTE: There were 28 observations read from the data set WORK.M1RTP4J4.
+NOTE: The data set WORK.M1RTP4J4 has 28 observations and 9 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11545  data WORK.M0T5PEG0;
+11546  drop UNAME;
+11547  set WORK.M0T5PEG0;
+11548  run;
+ 
+NOTE: There were 28 observations read from the data set WORK.M0T5PEG0.
+NOTE: The data set WORK.M0T5PEG0 has 28 observations and 21 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+NOTE: PROCEDURE DISPLAY used (Total process time):
+      real time           0.20 seconds
+      cpu time            0.12 seconds
+ 
+ 
+ 
+11799  %EmAdviseTable(DATA.PVA97NK, outdata=EMWS3.Ids_EMTMETADEFAULT, newdataflag=N);
+ 
+11800  %let SYSCC = 0;
+11801  data EMWS3.Ids_EMTMETADEFAULT;
+11802  set EMWS3.Ids_EMTMETADEFAULT;
+11803  length LIBNAME $8;
+11804  LIBNAME = "DATA";
+11805  run;
+ 
+NOTE: There were 1 observations read from the data set EMWS3.IDS_EMTMETADEFAULT.
+NOTE: The data set EMWS3.IDS_EMTMETADEFAULT has 1 observations and 15 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+NOTE: PROCEDURE DISPLAY used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.07 seconds
+ 
+ 
+ 
+11834  data EMWS3.Ids_EMCMETADEFAULT;
+11835  set EMWS3.Ids_EMCMETADEFAULT;
+11836  label DROP = "%sysfunc(sasmsg(sashelp.dmine, meta_drop_vlabel, NOQUOTE))";
+11837  if DROP='' then DROP='N';
+11838  if type='C' and level='INTERVAL' then level='NOMINAL';
+11839  if type='C' and role='FREQ' then role='INPUT';
+11840  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.IDS_EMCMETADEFAULT.
+NOTE: The data set EMWS3.IDS_EMCMETADEFAULT has 28 observations and 21 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11841  proc sort data=EMWS3.Ids_EMCMETADEFAULT;
+11842  by NAME;
+11843  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.IDS_EMCMETADEFAULT.
+NOTE: The data set EMWS3.IDS_EMCMETADEFAULT has 28 observations and 21 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+ 
+ 
+11844  proc sort data=EMWS3.Ids_VariableSet;
+11845  by NAME;
+11846  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.IDS_VARIABLESET.
+NOTE: The data set EMWS3.IDS_VARIABLESET has 28 observations and 21 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11847  data EMWS3.Ids_VariableSet;
+11848  merge EMWS3.Ids_EMCMETADEFAULT(in=_a) EMWS3.Ids_VariableSet(keep=NAME ROLE LEVEL ORDER DROP TYPE LOWERLIMIT UPPERLIMIT rename=(TYPE=OLDTYPE) in=_b);
+11849  by NAME;
+11850  if ^_a and _b then delete;
+11851  if type='C' and level='INTERVAL' then level='NOMINAL';
+11852  if type='C' and role='FREQ' then role='INPUT';
+11853  if (type ne oldtype) and (_a and _b) then do;
+11854  if type ='N' then level='INTERVAL';
+11855  end;
+11856  drop oldtype;
+11857  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.IDS_EMCMETADEFAULT.
+NOTE: There were 28 observations read from the data set EMWS3.IDS_VARIABLESET.
+NOTE: The data set EMWS3.IDS_VARIABLESET has 28 observations and 21 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+ 
+ 
+11858  data EMWS3.Ids_CMeta_DATA;
+11859  set WORK.M0AVRRD6;
+11860  drop DROP;
+11861  where DROP='N';
+11862  run;
+ 
+NOTE: There were 28 observations read from the data set WORK.M0AVRRD6.
+      WHERE DROP='N';
+NOTE: The data set EMWS3.IDS_CMETA_DATA has 28 observations and 20 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+*------------------------------------------------------------*
+Ids: Using "DATA.PVA97NK" data source
+*------------------------------------------------------------*
+11863  *------------------------------------------------------------*;
+11864  * Ids: Creating DATA data;
+11865  *------------------------------------------------------------*;
+11866  data EMWS3.Ids_DATA (label="")
+11867  / view=EMWS3.Ids_DATA
+11868  ;
+11869  set DATA.PVA97NK;
+11870  run;
+ 
+NOTE: DATA STEP view saved on file EMWS3.IDS_DATA.
+NOTE: A stored DATA STEP view cannot run under a different operating system.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11871  data WORK.IDSOUTPUT;
+11872  length ATTRIBUTE $20 LABEL $50 VALUE $50;
+11873  label LABEL= "%sysfunc(sasmsg(sashelp.dmine, rpt_attribute_vlabel,   NOQUOTE))";
+11874  label VALUE= "%sysfunc(sasmsg(sashelp.dmine, rpt_value_vlabel,       NOQUOTE))";
+11875  ATTRIBUTE = 'OUTPUT';
+11876  LABEL = "%sysfunc(sasmsg(sashelp.dmine, rpt_labeloutput_value , NOQUOTE))";
+11877  VALUE = "EMWS3.Ids_DATA";
+11878  output;
+11879  ATTRIBUTE = 'OUTPUTTYPE';
+11880  LABEL = "%sysfunc(sasmsg(sashelp.dmine, rpt_labeloutputtype_value, NOQUOTE))";
+11881  VALUE = "View";
+11882  output;
+11883  ATTRIBUTE = 'DROPVARS';
+11884  LABEL = "%sysfunc(sasmsg(sashelp.dmine, rpt_labeldropvars_value, NOQUOTE))";
+11885  VALUE = "0";
+11886  output;
+11887  ATTRIBUTE = 'ROLE';
+11888  LABEL = "%sysfunc(sasmsg(sashelp.dmine, rpt_labelrole_value , NOQUOTE))";
+11889  VALUE = "Raw";
+11890  output;
+11891  run;
+ 
+NOTE: The data set WORK.IDSOUTPUT has 4 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+ 
+ 
+11892  proc print data=WORK.IDSOUTPUT noobs label;
+11893  var label value;
+11894  title9 ' ';
+11895  title10 "%sysfunc(sasmsg(sashelp.dmine, rpt_outTableAttr_title, NOQUOTE))";
+11896  run;
+ 
+NOTE: There were 4 observations read from the data set WORK.IDSOUTPUT.
+NOTE: The PROCEDURE PRINT printed page 2.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11897  title10;
+ 
+11898  proc contents noprint data=DATA.PVA97NK out=WORK.IDSCONTENT(drop=NAME TYPE LENGTH VARNUM LABEL FORMAT FORMATL FORMATD INFORMAT INFORML INFORMD JUST NPOS);
+11899  run;
+ 
+NOTE: The data set WORK.IDSCONTENT has 28 observations and 28 variables.
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11900  data WORK.IDSCONTENT;
+11901  set WORK.IDSCONTENT end=eof;
+11902  if eof then do;
+11903  NVARS = _n_;
+11904  output;
+11905  end;
+11906  run;
+ 
+NOTE: There were 28 observations read from the data set WORK.IDSCONTENT.
+NOTE: The data set WORK.IDSCONTENT has 1 observations and 29 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11907  data WORK.IDSOUTPUT(keep=ATTRIBUTE LABEL VALUE);
+11908  length ATTRIBUTE $20 LABEL $50 VALUE $80;
+11909  label LABEL= "%sysfunc(sasmsg(sashelp.dmine, rpt_attribute_vlabel,   NOQUOTE))";
+11910  label VALUE= "%sysfunc(sasmsg(sashelp.dmine, rpt_value_vlabel,       NOQUOTE))";
+11911  ;
+11912  dsid = open("WORK.IDSCONTENT");
+11913  rc = fetch(dsid);
+11914  nvars = attrn(dsid, 'NVARS');
+11915  nobs = attrn(dsid, 'NOBS');
+11916  ATTRIBUTE = 'DATASOURCE';
+11917  LABEL = "%sysfunc(sasmsg(sashelp.dmine, meta_datasource_vlabel, NOQUOTE))";
+11918  VALUE="pvank";
+11919  output;
+11920  ATTRIBUTE = '';
+11921  LABEL = '';
+11922  VALUE='';
+11923  output;
+11924  do i=1 to nvars;
+11925  ATTRIBUTE = varname(dsid, i);
+11926  LABEL = varlabel(dsid, i);
+11927  if vartype(dsid,i)='C' then do;
+11928  VALUE = getvarc(dsid, i);
+11929  end;
+11930  else do;
+11931  NVALUE = getvarn(dsid, i);
+11932  if ATTRIBUTE in('CRDATE', 'MODATE') then VALUE = left(put(NVALUE, NLDATM20.));
+11933  else VALUE = left(put(NVALUE, BEST12.));
+11934  end;
+11935  if ATTRIBUTE = 'NVARS' then do;
+11936  LABEL = "%sysfunc(sasmsg(sashelp.dmine, rpt_labelvariables_value, NOQUOTE))";
+11937  end;
+11938  output;
+11939  end;
+11940  dsid=close(dsid);
+11941  run;
+ 
+NOTE: The data set WORK.IDSOUTPUT has 31 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+11942  proc print data=WORK.IDSOUTPUT noobs label;
+11943  var label value;
+11944  title9 ' ';
+11945  title10 "%sysfunc(sasmsg(sashelp.dmine, rpt_inTableAttr_title, NOQUOTE))";
+11946  run;
+ 
+NOTE: There were 31 observations read from the data set WORK.IDSOUTPUT.
+NOTE: The PROCEDURE PRINT printed page 3.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+ 
+ 
+WORK_TPTRAIN WORK.WORK_TPTRAIN
+WORK_TPTRAIN WORK.WORK_TPTRAIN WORK WORK_TPTRAIN
+WORK.WORK_TPTRAIN WORK.WORK_TPTRAIN
+WORK.WORK_TPTRAIN WORK.WORK_TPTRAIN WORK WORK_TPTRAIN
+>>>>>>>>>>>>>> TARGET(   NAME='TargetB'
+                         ROLE='TARGET'
+                         LEVEL='BINARY'
+                         ORDER=''
+                         CREATOR=''
+                         FORMATTYPE=''
+                         FAMILY=''
+                         LOWERLIMIT=.
+                         UPPERLIMIT=.
+                         REPORT='N'
+                         DISTRIBUTION=''
+                         COMMENT=''
+                         PRICE=.
+                         TYPE='N'
+                         LABEL='Target Gift Flag'
+                         FORMAT=''
+                         INFORMAT=''
+                         INDEX='N'
+                         INDEXTYPE='NONE'
+                         LENGTH=8
+                         DROP='N'
+                      )[11769]
+PERFORMANCE  DETAILS
+WORK.EM_DMDB WORK.EM_DMDB
+WORK.EM_DMDB WORK.EM_DMDB WORK EM_DMDB
+*------------------------------------------------------------*
+* Score Log
+Date:                April 13, 2022
+Time:                17:21:17
+*------------------------------------------------------------*
+12131  *------------------------------------------------------------*;
+12132  * Ids: Computing metadata for DATA data;
+12133  *------------------------------------------------------------*;
+ 
+NOTE: View EMWS3.IDS_DATA.VIEW used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.12 seconds
+ 
+12134  data EMWS3.Ids_EMINFO;
+12135  length TARGET KEY $32 DATA $43;
+12136  TARGET="";
+12137  KEY="IDSTABLE";
+12138  DATA="DATA.PVA97NK";
+12139  output;
+12140  TARGET="TargetB";
+12141  KEY="DECDATA";
+12142  DATA="EMWS3.Ids_TargetB_DD";
+12143  output;
+12144  TARGET="TargetB";
+12145  KEY="DECMETA";
+12146  DATA="EMWS3.Ids_TargetB_DM";
+12147  output;
+12148  TARGET="";
+12149  KEY="STATS";
+12150  DATA="EMWS3.Ids_EMSTATDEFAULT";
+12151  output;
+12152  run;
+ 
+NOTE: The data set EMWS3.IDS_EMINFO has 4 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+NOTE: View EMWS3.IDS_DATA.VIEW used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.04 seconds
+ 
+12153  data EMWS3.Ids_CMeta_DATA;
+12154  set EMWS3.Ids_VariableSet;
+12155  drop DROP;
+12156  where DROP='N';
+12157  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.IDS_VARIABLESET.
+      WHERE DROP='N';
+NOTE: The data set EMWS3.IDS_CMETA_DATA has 28 observations and 20 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+ 
+ 
+*------------------------------------------------------------*
+* Report Log
+Date:                April 13, 2022
+Time:                17:21:17
+*------------------------------------------------------------*

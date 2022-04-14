@@ -1,0 +1,53 @@
+*------------------------------------------------------------*
+* Score Log
+Date:                April 13, 2022
+Time:                18:21:18
+*------------------------------------------------------------*
+12131  *------------------------------------------------------------*;
+12132  * Ids: Computing metadata for DATA data;
+12133  *------------------------------------------------------------*;
+
+NOTE: View EMWS5.IDS_DATA.VIEW used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+12134  data EMWS5.Ids_EMINFO;
+12135  length TARGET KEY $32 DATA $43;
+12136  TARGET="";
+12137  KEY="IDSTABLE";
+12138  DATA="DATA.ORGANICS";
+12139  output;
+12140  TARGET="TargetBuy";
+12141  KEY="DECDATA";
+12142  DATA="EMWS5.Ids_TargetBuy_DD";
+12143  output;
+12144  TARGET="TargetBuy";
+12145  KEY="DECMETA";
+12146  DATA="EMWS5.Ids_TargetBuy_DM";
+12147  output;
+12148  run;
+
+NOTE: The data set EMWS5.IDS_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: View EMWS5.IDS_DATA.VIEW used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+12149  data EMWS5.Ids_CMeta_DATA;
+12150  set EMWS5.Ids_VariableSet;
+12151  drop DROP;
+12152  where DROP='N';
+12153  run;
+
+NOTE: There were 13 observations read from the data set EMWS5.IDS_VARIABLESET.
+      WHERE DROP='N';
+NOTE: The data set EMWS5.IDS_CMETA_DATA has 13 observations and 20 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+

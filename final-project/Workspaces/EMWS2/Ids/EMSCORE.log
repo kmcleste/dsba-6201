@@ -1,0 +1,65 @@
+*------------------------------------------------------------*
+* Score Log
+Date:                April 13, 2022
+Time:                12:40:30
+*------------------------------------------------------------*
+12190  *------------------------------------------------------------*;
+12191  * Ids: Computing metadata for DATA data;
+12192  *------------------------------------------------------------*;
+
+NOTE: View EMWS2.IDS_DATA.VIEW used (Total process time):
+      real time           0.09 seconds
+      cpu time            0.06 seconds
+      
+12193  data EMWS2.Ids_EMINFO;
+12194  length TARGET KEY $32 DATA $43;
+12195  TARGET="";
+12196  KEY="IDSTABLE";
+12197  DATA="DATA.CATALOG2010";
+12198  output;
+12199  TARGET="ORDERSIZE";
+12200  KEY="DECDATA";
+12201  DATA="EMWS2.Ids_ORDERSIZE_DD";
+12202  output;
+12203  TARGET="ORDERSIZE";
+12204  KEY="DECMETA";
+12205  DATA="EMWS2.Ids_ORDERSIZE_DM";
+12206  output;
+12207  TARGET="RESPOND";
+12208  KEY="DECDATA";
+12209  DATA="EMWS2.Ids_RESPOND_DD";
+12210  output;
+12211  TARGET="RESPOND";
+12212  KEY="DECMETA";
+12213  DATA="EMWS2.Ids_RESPOND_DM";
+12214  output;
+12215  TARGET="";
+12216  KEY="STATS";
+12217  DATA="EMWS2.Ids_EMSTATDEFAULT";
+12218  output;
+12219  run;
+
+NOTE: The data set EMWS2.IDS_EMINFO has 6 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+NOTE: View EMWS2.IDS_DATA.VIEW used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.04 seconds
+      
+12220  data EMWS2.Ids_CMeta_DATA;
+12221  set EMWS2.Ids_VariableSet;
+12222  drop DROP;
+12223  where DROP='N';
+12224  run;
+
+NOTE: There were 98 observations read from the data set EMWS2.IDS_VARIABLESET.
+      WHERE DROP='N';
+NOTE: The data set EMWS2.IDS_CMETA_DATA has 98 observations and 20 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
