@@ -11,6 +11,17 @@ The topics/methods covered in this project include:
   - Logistic Regression
   - RFM Analysis
 
+Folder Contents:
+
+- 📂 data
+  - All data sources provided for the exercise
+- 📂 final-project
+  - SAS Enterprise Miner project files
+- 📂 project-01
+  - Instructions, screenshots and diagrams
+- 📂 project-02
+  - Instructions, screenshots and diagrams
+
 ---
 
 | Member Name | Contact |
