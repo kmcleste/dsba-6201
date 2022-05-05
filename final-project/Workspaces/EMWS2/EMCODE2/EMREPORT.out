@@ -1,0 +1,1277 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  RESPOND  (response target)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean                0.0566424    Sum Observations          2739
+Std Deviation      0.23116043    Variance            0.05343515
+Skewness           3.83608848    Kurtosis            12.7161008
+Uncorrected SS           2739    Corrected SS        2583.85646
+Coeff Variation    408.104924    Std Error Mean      0.00105121
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     0.056642     Std Deviation            0.23116
+Median   0.000000     Variance                 0.05344
+Mode     0.000000     Range                    1.00000
+                      Interquartile Range            0
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t   53.8832    Pr > |t|    <.0001
+Sign           M    1369.5    Pr >= |M|   <.0001
+Signed Rank    S   1876215    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.540143    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  3599.718    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  17272.57    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max             1
+99%                  1
+95%                  1
+90%                  0
+75% Q3               0
+50% Median           0
+25% Q1               0
+10%                  0
+5%                   0
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0    48356            1    48277
+    0    48355            1    48315
+    0    48354            1    48316
+    0    48353            1    48347
+    0    48352            1    48348
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  ACTBUY  (num qrtrs w/buy)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               0.98415915    Sum Observations         47590
+Std Deviation      1.16124174    Variance            1.34848239
+Skewness           1.89943634    Kurtosis            5.52735356
+Uncorrected SS         112042    Corrected SS        65205.8659
+Coeff Variation    117.993288    Std Error Mean      0.00528077
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     0.984159     Std Deviation            1.16124
+Median   1.000000     Variance                 1.34848
+Mode     0.000000     Range                   10.00000
+                      Interquartile Range      1.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  186.3665    Pr > |t|    <.0001
+Sign           M   14483.5    Pr >= |M|   <.0001
+Signed Rank    S  2.0978E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.268919    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  611.5517    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  3475.639    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            10
+99%                  5
+95%                  3
+90%                  2
+75% Q3               1
+50% Median           1
+25% Q1               0
+10%                  0
+5%                   0
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0    48354           10     6841
+    0    48351           10     8014
+    0    48350           10    18141
+    0    48346           10    19438
+    0    48345           10    31958
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  BUYPROP  (% quarters w/buy)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               0.18857954    Sum Observations    9118.95201
+Std Deviation      0.25695638    Variance            0.06602658
+Skewness           1.86441986    Kurtosis            3.10645445
+Uncorrected SS     4912.36313    Corrected SS         3192.7154
+Coeff Variation    136.258891    Std Error Mean      0.00116851
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     0.188580     Std Deviation            0.25696
+Median   0.100000     Variance                 0.06603
+Mode     0.000000     Range                    1.00000
+                      Interquartile Range      0.25000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  161.3839    Pr > |t|    <.0001
+Sign           M   14483.5    Pr >= |M|   <.0001
+Signed Rank    S  2.0978E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.231506    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  667.4189    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  4054.529    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max          1.00
+99%               1.00
+95%               1.00
+90%               0.50
+75% Q3            0.25
+50% Median        0.10
+25% Q1            0.00
+10%               0.00
+5%                0.00
+1%                0.00
+0% Min            0.00
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0    48354            1    48312
+    0    48351            1    48313
+    0    48350            1    48337
+    0    48346            1    48343
+    0    48345            1    48356
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  CATALOGCNT  (number of catalogs received)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               3.76582017    Sum Observations        182100
+Std Deviation      3.13325249    Variance            9.81727117
+Skewness           1.59435234    Kurtosis            2.92797006
+Uncorrected SS        1160470    Corrected SS        474714.148
+Coeff Variation    83.2023929    Std Error Mean      0.01424853
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     3.765820     Std Deviation            3.13325
+Median   3.000000     Variance                 9.81727
+Mode     1.000000     Range                   26.00000
+                      Interquartile Range      4.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  264.2953    Pr > |t|    <.0001
+Sign           M     24178    Pr >= |M|   <.0001
+Signed Rank    S  5.8459E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.192191    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  426.9596    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq   2521.65    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            27
+99%                 15
+95%                 10
+90%                  8
+75% Q3               5
+50% Median           3
+25% Q1               1
+10%                  1
+5%                   1
+1%                   1
+0% Min               1
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    1    48356           23     4323
+    1    48353           23     7978
+    1    48352           23    29158
+    1    48350           24    12593
+    1    48346           27     4484
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DAYLAST  (days since last)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean                1179.7221    Sum Observations      57046642
+Std Deviation      1228.08606    Variance            1508195.37
+Skewness           1.77074127    Kurtosis            3.31115759
+Uncorrected SS     1.40228E11    Corrected SS        7.29288E10
+Coeff Variation    104.099606    Std Error Mean      5.58474847
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     1179.722     Std Deviation               1228
+Median    752.000     Variance                 1508195
+Mode      260.000     Range                       8265
+                      Interquartile Range         1304
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t    211.24    Pr > |t|    <.0001
+Sign           M   24160.5    Pr >= |M|   <.0001
+Signed Rank    S  5.8374E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.168372    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  493.9148    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  2829.936    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max          8265
+99%               5335
+95%               3904
+90%               2953
+75% Q3            1590
+50% Median         752
+25% Q1             286
+10%                127
+5%                  62
+1%                  10
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0    46526         7859     9738
+    0    45901         7864    15743
+    0    45854         7867    42042
+    0    45477         7887    11772
+    0    45325         8265    17431
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DOLINDEA  (avg $ demand)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               47.7494687    Sum Observations    2308973.31
+Std Deviation      37.7517737    Variance            1425.19642
+Skewness           3.75269044    Kurtosis            31.5922212
+Uncorrected SS      179167622    Corrected SS        68915372.8
+Coeff Variation    79.0621858    Std Error Mean      0.17167702
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     47.74947     Std Deviation           37.75177
+Median   37.78167     Variance                    1425
+Mode     29.95000     Range                  767.85000
+                      Interquartile Range     33.69129
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  278.1355    Pr > |t|    <.0001
+Sign           M     24178    Pr >= |M|   <.0001
+Signed Rank    S  5.8459E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.146427    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  458.0511    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  2617.939    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level          Quantile
+
+100% Max       768.8500
+99%            192.5000
+95%            114.1500
+90%             87.9000
+75% Q3          58.6413
+50% Median      37.7817
+25% Q1          24.9500
+10%             17.0000
+5%              13.6000
+1%               7.9700
+0% Min           1.0000
+
+
+          Extreme Observations
+ 
+----Lowest----        -----Highest-----
+ 
+Value      Obs           Value      Obs
+
+ 1.00    22944         724.678    24864
+ 1.50    10359         731.550    22513
+ 1.75    25939         757.000     9913
+ 2.00    27980         768.500    43274
+ 3.00    35849         768.850    31849
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DOLINDET  (total $ demand)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               196.670314    Sum Observations    9510189.71
+Std Deviation      314.090974    Variance              98653.14
+Skewness           6.09563621    Kurtosis            67.2492093
+Uncorrected SS     6640744581    Corrected SS        4770372583
+Coeff Variation    159.704313    Std Error Mean      1.42833564
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     196.6703     Std Deviation          314.09097
+Median    97.8500     Variance                   98653
+Mode      29.9500     Range                       7978
+                      Interquartile Range    179.20000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  137.6919    Pr > |t|    <.0001
+Sign           M     24178    Pr >= |M|   <.0001
+Signed Rank    S  5.8459E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.270444    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  1117.755    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  5853.393    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max       7978.98
+99%            1481.20
+95%             682.10
+90%             449.30
+75% Q3          223.20
+50% Median       97.85
+25% Q1           44.00
+10%              23.45
+5%               15.95
+1%                8.75
+0% Min            1.00
+
+
+          Extreme Observations
+ 
+----Lowest----        -----Highest-----
+ 
+Value      Obs           Value      Obs
+
+    1    22944         6321.45    18104
+    2    27980         6326.05    12593
+    3    28093         6633.15    23590
+    3    15744         7421.60    19052
+    3    10359         7978.98     8065
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DOLL24  ($ last 24 months)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               45.6909612    Sum Observations    2209432.12
+Std Deviation       94.260455    Variance            8885.03338
+Skewness           5.89095207    Kurtosis            67.8414374
+Uncorrected SS      530586866    Corrected SS         429635789
+Coeff Variation    206.300005    Std Error Mean       0.4286515
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     45.69096     Std Deviation           94.26046
+Median    0.00000     Variance                    8885
+Mode      0.00000     Range                       2434
+                      Interquartile Range     55.65000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  106.5923    Pr > |t|    <.0001
+Sign           M   11915.5    Pr >= |M|   <.0001
+Signed Rank    S  1.4199E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.313934    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  1274.475    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  6551.583    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max       2433.50
+99%             428.60
+95%             197.65
+90%             130.85
+75% Q3           55.65
+50% Median        0.00
+25% Q1            0.00
+10%               0.00
+5%                0.00
+1%                0.00
+0% Min            0.00
+
+
+          Extreme Observations
+ 
+----Lowest----        -----Highest-----
+ 
+Value      Obs           Value      Obs
+
+    0    48353         1889.90     2050
+    0    48352         1980.45    40112
+    0    48351         2140.10    19052
+    0    48350         2343.65    18590
+    0    48349         2433.50     4228
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DOLNETDA  (tot $ net demand)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               45.3010962    Sum Observations    2190579.81
+Std Deviation      36.4093965    Variance            1325.64416
+Skewness           3.65926195    Kurtosis            30.3949951
+Uncorrected SS      163337190    Corrected SS        64101523.2
+Coeff Variation    80.3719989    Std Error Mean      0.16557253
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     45.30110     Std Deviation           36.40940
+Median   35.90000     Variance                    1326
+Mode      0.00000     Range                  768.50000
+                      Interquartile Range     32.21125
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  273.6027    Pr > |t|    <.0001
+Sign           M   23920.5    Pr >= |M|   <.0001
+Signed Rank    S   5.722E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.145671    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  442.6354    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  2516.391    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level          Quantile
+
+100% Max       768.5000
+99%            183.6500
+95%            109.7167
+90%             84.3071
+75% Q3          55.7225
+50% Median      35.9000
+25% Q1          23.5113
+10%             15.9000
+5%              11.7000
+1%               0.0000
+0% Min           0.0000
+
+
+          Extreme Observations
+ 
+----Lowest----        -----Highest-----
+ 
+Value      Obs           Value      Obs
+
+    0    48076         618.000    26056
+    0    48053         724.678    24864
+    0    48039         730.350     9913
+    0    47973         731.550    22513
+    0    47932         768.500    43274
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DOLNETDT  (avg $ net demand)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               187.859167    Sum Observations    9084117.87
+Std Deviation      302.353627    Variance            91417.7158
+Skewness           6.14969689    Kurtosis             69.605928
+Uncorrected SS     6127038460    Corrected SS        4420503646
+Coeff Variation    160.946965    Std Error Mean      1.37495979
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     187.8592     Std Deviation          302.35363
+Median    92.9500     Variance                   91418
+Mode       0.0000     Range                       8029
+                      Interquartile Range    171.72500
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  136.6288    Pr > |t|    <.0001
+Sign           M   23920.5    Pr >= |M|   <.0001
+Signed Rank    S   5.722E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.267194    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  1117.799    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  5853.006    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level          Quantile
+
+100% Max       8028.980
+99%            1435.050
+95%             656.500
+90%             431.990
+75% Q3          212.725
+50% Median       92.950
+25% Q1           41.000
+10%              20.850
+5%               14.000
+1%                0.000
+0% Min            0.000
+
+
+          Extreme Observations
+ 
+----Lowest----        -----Highest-----
+ 
+Value      Obs           Value      Obs
+
+    0    48076         5798.59     8477
+    0    48053         5872.35    18104
+    0    48039         6633.15    23590
+    0    47973         7421.60    19052
+    0    47932         8028.98     8065
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DTBUYLST
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               16581.7099    Sum Observations     801825166
+Std Deviation      1228.02769    Variance            1508052.01
+Skewness           -1.7708946    Kurtosis            3.31206807
+Uncorrected SS     1.33686E13    Corrected SS        7.29219E10
+Coeff Variation    7.40591711    Std Error Mean      5.58448304
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     16581.71     Std Deviation               1228
+Median   17009.00     Variance                 1508052
+Mode     17501.00     Range                       8265
+                      Interquartile Range         1303
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  2969.247    Pr > |t|    <.0001
+Sign           M     24178    Pr >= |M|   <.0001
+Signed Rank    S  5.8459E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.168244    Pr > D     <0.0100
+Cramer-von Mises      W-Sq   493.854    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  2829.048    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max         17762
+99%              17752
+95%              17700
+90%              17635
+75% Q3           17475
+50% Median       17009
+25% Q1           16172
+10%              14809
+5%               13858
+1%               12427
+0% Min            9497
+
+
+         Extreme Observations
+ 
+----Lowest----        ----Highest----
+ 
+Value      Obs         Value      Obs
+
+ 9497    17431         17762    45325
+ 9874    11772         17762    45477
+ 9894    42042         17762    45854
+ 9897    15743         17762    45901
+ 9902     9738         17762    46526
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  DTBUYORG
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               15225.5596    Sum Observations     736247161
+Std Deviation      1828.78814    Variance            3344466.05
+Skewness           -0.6187846    Kurtosis            -0.4270827
+Uncorrected SS     1.13715E13    Corrected SS        1.61722E11
+Coeff Variation    12.0113032    Std Error Mean      8.31645441
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     15225.56     Std Deviation               1829
+Median   15618.50     Variance                 3344466
+Mode     13132.00     Range                       8403
+                      Interquartile Range         2956
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  1830.775    Pr > |t|    <.0001
+Sign           M     24178    Pr >= |M|   <.0001
+Signed Rank    S  5.8459E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.102228    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  135.4987    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  851.9898    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max       17761.0
+99%            17677.0
+95%            17508.0
+90%            17358.0
+75% Q3         16818.0
+50% Median     15618.5
+25% Q1         13862.0
+10%            12767.0
+5%             12037.0
+1%             10454.0
+0% Min          9358.0
+
+
+         Extreme Observations
+ 
+----Lowest----        ----Highest----
+ 
+Value      Obs         Value      Obs
+
+ 9358    48118         17756    39192
+ 9358    47279         17757    20136
+ 9358    45977         17759     5046
+ 9358    41335         17759    39012
+ 9358    40953         17761    44638
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  FREQPRCH  (lifetime orders)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               4.16699065    Sum Observations        201499
+Std Deviation      5.29065555    Variance            27.9910361
+Skewness           4.59092309    Kurtosis            42.5768131
+Uncorrected SS        2193151    Corrected SS        1353506.55
+Coeff Variation    126.965861    Std Error Mean      0.02405937
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     4.166991     Std Deviation            5.29066
+Median   2.000000     Variance                27.99104
+Mode     1.000000     Range                  149.00000
+                      Interquartile Range      4.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  173.1961    Pr > |t|    <.0001
+Sign           M     24178    Pr >= |M|   <.0001
+Signed Rank    S  5.8459E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D      0.27472    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  966.2684    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  5130.492    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           150
+99%                 26
+95%                 14
+90%                  9
+75% Q3               5
+50% Median           2
+25% Q1               1
+10%                  1
+5%                   1
+1%                   1
+0% Min               1
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    1    48356           85    10884
+    1    48355           87     1069
+    1    48353           94    22021
+    1    48352           96     5794
+    1    48350          150     4484
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  MONLAST  (months since last)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               38.6783439    Sum Observations       1870330
+Std Deviation      40.3446077    Variance            1627.68737
+Skewness           1.77073971    Kurtosis            3.30962743
+Uncorrected SS      151048090    Corrected SS          78706823
+Coeff Variation    104.308002    Std Error Mean      0.18346799
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     38.67834     Std Deviation           40.34461
+Median   25.00000     Variance                    1628
+Mode      9.00000     Range                  271.00000
+                      Interquartile Range     43.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  210.8179    Pr > |t|    <.0001
+Sign           M   23850.5    Pr >= |M|   <.0001
+Signed Rank    S  5.6886E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.168855    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  494.5571    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  2833.416    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           271
+99%                175
+95%                128
+90%                 97
+75% Q3              52
+50% Median          25
+25% Q1               9
+10%                  4
+5%                   2
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0    48179          258    15743
+    0    48089          258    42042
+    0    48081          258    46543
+    0    48042          259    11772
+    0    47956          271    17431
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  ORDERSIZE  (dollar value of order)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               3.55545103    Sum Observations     171927.39
+Std Deviation      20.3469609    Variance            413.998817
+Skewness           9.69180583    Kurtosis            131.485999
+Uncorrected SS     20630192.2    Corrected SS        20018912.8
+Coeff Variation    572.275099    Std Error Mean      0.09252825
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     3.555451     Std Deviation           20.34696
+Median   0.000000     Variance               413.99882
+Mode     0.000000     Range                  510.72000
+                      Interquartile Range            0
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  38.42557    Pr > |t|    <.0001
+Sign           M    1369.5    Pr >= |M|   <.0001
+Signed Rank    S   1876215    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.512716    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  3494.593    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  16089.72    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max        510.72
+99%              94.60
+95%              17.85
+90%               0.00
+75% Q3            0.00
+50% Median        0.00
+25% Q1            0.00
+10%               0.00
+5%                0.00
+1%                0.00
+0% Min            0.00
+
+
+         Extreme Observations
+ 
+----Lowest----        -----Highest----
+ 
+Value      Obs          Value      Obs
+
+    0    48356         471.20    11652
+    0    48355         478.70    46280
+    0    48354         488.00    18735
+    0    48353         498.60     1964
+    0    48352         510.72     4228
+ 
+                                                                                                                                                                                                                                                                
+ 
+The UNIVARIATE Procedure
+Variable:  TENURE  (months since 1st)
+
+                            Moments
+
+N                       48356    Sum Weights              48356
+Mean               83.2569898    Sum Observations       4025975
+Std Deviation      60.1049434    Variance            3612.60423
+Skewness            0.6186997    Kurtosis            -0.4277606
+Uncorrected SS      509878037    Corrected SS         174687477
+Coeff Variation    72.1920689    Std Error Mean      0.27332856
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean      83.2570     Std Deviation           60.10494
+Median    70.0000     Variance                    3613
+Mode     152.0000     Range                  276.00000
+                      Interquartile Range     97.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  304.6041    Pr > |t|    <.0001
+Sign           M   24172.5    Pr >= |M|   <.0001
+Signed Rank    S  5.8432E8    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.104894    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  135.7187    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  853.2439    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           276
+99%                240
+95%                188
+90%                164
+75% Q3             128
+50% Median          70
+25% Q1              31
+10%                 13
+5%                   8
+1%                   3
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0    47709          276    40953
+    0    44638          276    41335
+    0    41896          276    45977
+    0    39192          276    47279
+    0    39012          276    48118
+ 
+                                                                                                                                                                                                                                                                
+ 
+The CORR Procedure
+
+  16  Variables:    RESPOND    ACTBUY     BUYPROP    CATALOGCNT DAYLAST    DOLINDEA   DOLINDET   DOLL24     DOLNETDA   DOLNETDT   DTBUYLST   DTBUYORG   FREQPRCH   MONLAST    ORDERSIZE  TENURE     
+
+
+                                                                               Covariance Matrix, DF = 48355
+ 
+                                                      RESPOND            ACTBUY           BUYPROP        CATALOGCNT           DAYLAST          DOLINDEA          DOLINDET            DOLL24
+
+RESPOND         response target                         0.053             0.031             0.004             0.082           -23.789             0.064             8.494             2.916
+ACTBUY          num qrtrs w/buy                         0.031             1.348             0.147             2.114          -290.845             0.073           199.195            33.307
+BUYPROP         % quarters w/buy                        0.004             0.147             0.066             0.116           -99.146             0.325             9.627             6.620
+CATALOGCNT      number of catalogs received             0.082             2.114             0.116             9.817         -1255.801            26.367           727.552           135.927
+DAYLAST         days since last                       -23.789          -290.845           -99.146         -1255.801       1508195.372         -1217.711        -74975.086        -41879.977
+DOLINDEA        avg $ demand                            0.064             0.073             0.325            26.367         -1217.711          1425.196          3876.923          1228.110
+DOLINDET        total $ demand                          8.494           199.195             9.627           727.552        -74975.086          3876.923         98653.140         17091.315
+DOLL24          $ last 24 months                        2.916            33.307             6.620           135.927        -41879.977          1228.110         17091.315          8885.033
+DOLNETDA        tot $ net demand                        0.067             0.363             0.285            25.450          -406.377          1310.162          3692.273          1120.615
+DOLNETDT        avg $ net demand                        8.013           191.313             9.082           694.883        -70231.683          3631.477         94392.307         16139.986
+DTBUYLST                                               23.791           290.808            99.123          1255.792      -1508123.571          1217.588         74977.321         41878.138
+DTBUYORG                                               -5.311          -715.816           125.272         -1855.469      -1003330.203          4576.969       -191567.832          8935.435
+FREQPRCH        lifetime orders                         0.159             3.978             0.153            11.908         -1354.568            -2.301          1354.991           200.806
+MONLAST         months since last                      -0.782            -9.566            -3.260           -41.265         49545.424           -39.993         -2463.369         -1375.557
+ORDERSIZE       dollar value of order                   3.354             2.342             0.306             7.853         -1625.397            39.082          1044.038           347.859
+TENURE          months since 1st                        0.175            23.518            -4.120            60.992         32967.338          -150.472          6297.381          -293.466
+
+                                                                               Covariance Matrix, DF = 48355
+ 
+                                                     DOLNETDA          DOLNETDT          DTBUYLST          DTBUYORG          FREQPRCH           MONLAST         ORDERSIZE            TENURE
+
+RESPOND         response target                         0.067             8.013            23.791            -5.311             0.159            -0.782             3.354             0.175
+ACTBUY          num qrtrs w/buy                         0.363           191.313           290.808          -715.816             3.978            -9.566             2.342            23.518
+BUYPROP         % quarters w/buy                        0.285             9.082            99.123           125.272             0.153            -3.260             0.306            -4.120
+CATALOGCNT      number of catalogs received            25.450           694.883          1255.792         -1855.469            11.908           -41.265             7.853            60.992
+DAYLAST         days since last                      -406.377        -70231.683      -1508123.571      -1003330.203         -1354.568         49545.424         -1625.397         32967.338
+DOLINDEA        avg $ demand                         1310.162          3631.477          1217.588          4576.969            -2.301           -39.993            39.082          -150.472
+DOLINDET        total $ demand                       3692.273         94392.307         74977.321       -191567.832          1354.991         -2463.369          1044.038          6297.381
+DOLL24          $ last 24 months                     1120.615         16139.986         41878.138          8935.435           200.806         -1375.557           347.859          -293.466
+DOLNETDA        tot $ net demand                     1325.644          3688.378           406.260          2890.436            -0.910           -13.336            38.174           -95.003
+DOLNETDT        avg $ net demand                     3688.378         91417.716         70233.800       -187488.042          1299.536         -2307.572           990.762          6163.333
+DTBUYLST                                              406.260         70233.800       1508052.015       1003262.311          1354.618        -49543.067          1625.542        -32965.105
+DTBUYORG                                             2890.436       -187488.042       1003262.311       3344466.048         -4540.390        -32950.542          -502.263       -109918.112
+FREQPRCH        lifetime orders                        -0.910          1299.536          1354.618         -4540.390            27.991           -44.509            13.554           149.256
+MONLAST         months since last                     -13.336         -2307.572        -49543.067        -32950.542           -44.509          1627.687           -53.390          1082.714
+ORDERSIZE       dollar value of order                  38.174           990.762          1625.542          -502.263            13.554           -53.390           413.999            16.506
+TENURE          months since 1st                      -95.003          6163.333        -32965.105       -109918.112           149.256          1082.714            16.506          3612.604
+
+
+                                                     Simple Statistics
+ 
+Variable             N          Mean       Std Dev           Sum       Minimum       Maximum    Label
+
+RESPOND          48356       0.05664       0.23116          2739             0       1.00000    response target            
+ACTBUY           48356       0.98416       1.16124         47590             0      10.00000    num qrtrs w/buy            
+BUYPROP          48356       0.18858       0.25696          9119             0       1.00000    % quarters w/buy           
+CATALOGCNT       48356       3.76582       3.13325        182100       1.00000      27.00000    number of catalogs received
+DAYLAST          48356          1180          1228      57046642             0          8265    days since last            
+DOLINDEA         48356      47.74947      37.75177       2308973       1.00000     768.85000    avg $ demand               
+DOLINDET         48356     196.67031     314.09097       9510190       1.00000          7979    total $ demand             
+DOLL24           48356      45.69096      94.26046       2209432             0          2434    $ last 24 months           
+DOLNETDA         48356      45.30110      36.40940       2190580             0     768.50000    tot $ net demand           
+DOLNETDT         48356     187.85917     302.35363       9084118             0          8029    avg $ net demand           
+DTBUYLST         48356         16582          1228     801825166          9497         17762                               
+DTBUYORG         48356         15226          1829     736247161          9358         17761                               
+FREQPRCH         48356       4.16699       5.29066        201499       1.00000     150.00000    lifetime orders            
+MONLAST          48356      38.67834      40.34461       1870330             0     271.00000    months since last          
+ORDERSIZE        48356       3.55545      20.34696        171927             0     510.72000    dollar value of order      
+TENURE           48356      83.25699      60.10494       4025975             0     276.00000    months since 1st           
+
+
+                                                                                                         Pearson Correlation Coefficients, N = 48356 
+                                                                                                                  Prob > |r| under H0: Rho=0
+ 
+                                  RESPOND        ACTBUY       BUYPROP      CATALOGCNT       DAYLAST      DOLINDEA      DOLINDET        DOLL24      DOLNETDA      DOLNETDT      DTBUYLST      DTBUYORG      FREQPRCH       MONLAST      ORDERSIZE        TENURE
+
+RESPOND                           1.00000       0.11444       0.07352         0.11380      -0.08380       0.00728       0.11698       0.13381       0.00794       0.11464       0.08381      -0.01256       0.13005      -0.08380        0.71313       0.01258
+response target                                  <.0001        <.0001          <.0001        <.0001        0.1094        <.0001        <.0001        0.0810        <.0001        <.0001        0.0057        <.0001        <.0001         <.0001        0.0057
+
+ACTBUY                            0.11444       1.00000       0.49112         0.58103      -0.20394       0.00166       0.54614       0.30429       0.00859       0.54489       0.20393      -0.33707       0.64746      -0.20418        0.09912       0.33695
+num qrtrs w/buy                    <.0001                      <.0001          <.0001        <.0001        0.7146        <.0001        <.0001        0.0588        <.0001        <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+BUYPROP                           0.07352       0.49112       1.00000         0.14394      -0.31418       0.03348       0.11929       0.27331       0.03047       0.11690       0.31413       0.26658       0.11221      -0.31442        0.05855      -0.26675
+% quarters w/buy                   <.0001        <.0001                        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+CATALOGCNT                        0.11380       0.58103       0.14394         1.00000      -0.32636       0.22291       0.73929       0.46024       0.22309       0.73350       0.32637      -0.32381       0.71834      -0.32643        0.12319       0.32387
+number of catalogs received        <.0001        <.0001        <.0001                        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+DAYLAST                          -0.08380      -0.20394      -0.31418        -0.32636       1.00000      -0.02627      -0.19437      -0.36178      -0.00909      -0.18914      -1.00000      -0.44674      -0.20848       0.99998       -0.06505       0.44663
+days since last                    <.0001        <.0001        <.0001          <.0001                      <.0001        <.0001        <.0001        0.0457        <.0001        <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+DOLINDEA                          0.00728       0.00166       0.03348         0.22291      -0.02627       1.00000       0.32696       0.34512       0.95318       0.31815       0.02626       0.06629      -0.01152      -0.02626        0.05088      -0.06631
+avg $ demand                       0.1094        0.7146        <.0001          <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0113        <.0001         <.0001        <.0001
+
+DOLINDET                          0.11698       0.54614       0.11929         0.73929      -0.19437       0.32696       1.00000       0.57729       0.32287       0.99395       0.19439      -0.33351       0.81540      -0.19440        0.16337       0.33358
+total $ demand                     <.0001        <.0001        <.0001          <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+DOLL24                            0.13381       0.30429       0.27331         0.46024      -0.36178       0.34512       0.57729       1.00000       0.32652       0.56632       0.36178       0.05183       0.40266      -0.36171        0.18137      -0.05180
+$ last 24 months                   <.0001        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+DOLNETDA                          0.00794       0.00859       0.03047         0.22309      -0.00909       0.95318       0.32287       0.32652       1.00000       0.33505       0.00909       0.04341      -0.00472      -0.00908        0.05153      -0.04341
+tot $ net demand                   0.0810        0.0588        <.0001          <.0001        0.0457        <.0001        <.0001        <.0001                      <.0001        0.0457        <.0001        0.2988        0.0459         <.0001        <.0001
+
+DOLNETDT                          0.11464       0.54489       0.11690         0.73350      -0.18914       0.31815       0.99395       0.56632       0.33505       1.00000       0.18916      -0.33907       0.81239      -0.18917        0.16105       0.33915
+avg $ net demand                   <.0001        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001         <.0001        <.0001
+
+DTBUYLST                          0.08381       0.20393       0.31413         0.32637      -1.00000       0.02626       0.19439       0.36178       0.00909       0.18916       1.00000       0.44673       0.20850      -0.99998        0.06506      -0.44662
+                                   <.0001        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001        <.0001        0.0457        <.0001                      <.0001        <.0001        <.0001         <.0001        <.0001
+
+DTBUYORG                         -0.01256      -0.33707       0.26658        -0.32381      -0.44674       0.06629      -0.33351       0.05183       0.04341      -0.33907       0.44673       1.00000      -0.46927      -0.44659       -0.01350      -0.99999
+                                   0.0057        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001         0.0030        <.0001
+
+FREQPRCH                          0.13005       0.64746       0.11221         0.71834      -0.20848      -0.01152       0.81540       0.40266      -0.00472       0.81239       0.20850      -0.46927       1.00000      -0.20852        0.12591       0.46937
+lifetime orders                    <.0001        <.0001        <.0001          <.0001        <.0001        0.0113        <.0001        <.0001        0.2988        <.0001        <.0001        <.0001                      <.0001         <.0001        <.0001
+
+MONLAST                          -0.08380      -0.20418      -0.31442        -0.32643       0.99998      -0.02626      -0.19440      -0.36171      -0.00908      -0.18917      -0.99998      -0.44659      -0.20852       1.00000       -0.06504       0.44650
+months since last                  <.0001        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001        <.0001        0.0459        <.0001        <.0001        <.0001        <.0001                       <.0001        <.0001
+
+ORDERSIZE                         0.71313       0.09912       0.05855         0.12319      -0.06505       0.05088       0.16337       0.18137       0.05153       0.16105       0.06506      -0.01350       0.12591      -0.06504        1.00000       0.01350
+dollar value of order              <.0001        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0030        <.0001        <.0001                       0.0030
+
+TENURE                            0.01258       0.33695      -0.26675         0.32387       0.44663      -0.06631       0.33358      -0.05180      -0.04341       0.33915      -0.44662      -0.99999       0.46937       0.44650        0.01350       1.00000
+months since 1st                   0.0057        <.0001        <.0001          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001         0.0030              

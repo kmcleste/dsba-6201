@@ -4,9 +4,9 @@
  classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10"
  NumberofBins="20" RecomputeAssess="N" TargetName="RESPOND" ModelId="Tree2" ModelDescription="Tree2"
  ModelCriteria="Valid: Misclassification Rate" ForceRun="N" RunAction="Train" Component="ModelCompare"
- RawCreateTime="1965492544.6" CreateTime="13APR2022:18:09:05" RunId="785281e4-5cf3-420d-9f49-27f192f3915e"
- StatisticUsed="_VMISC_" TargetLabel="response target" RawLastTimeRun="1965492560.7"
- RawRunTime="5.9990000725" LastTimeRun="13APR2022:18:09:21" RunTime="0 Hr. 0 Min. 6.00 Sec."
+ RawCreateTime="1965492544.6" CreateTime="13APR2022:18:09:05" RunId="ba0ec7e7-a6fe-4111-8643-ace9318ec6ae"
+ StatisticUsed="_VMISC_" TargetLabel="response target" RawLastTimeRun="1967367721.9"
+ RawRunTime="8.8140001297" LastTimeRun="05MAY2022:11:02:02" RunTime="0 Hr. 0 Min. 8.81 Sec."
 >
 <VARIABLEPROPERTIES/>
 <FILEPROPERTIES/>

@@ -1,0 +1,132 @@
+*------------------------------------------------------------*
+User:                Kyle McLester
+Date:                May 05, 2022
+Time:                01:09:50
+Site:                70080897
+Platform:            X64_10HOME
+Maintenance Release: 9.04.01M6P111518
+EM Version:          15.1
+* 
+*------------------------------------------------------------*
+* Training Log
+Date:                May 05, 2022
+Time:                01:09:35
+*------------------------------------------------------------*
+15225  proc freq data=EMWS3.EMCODE_VariableSet noprint;
+15226  table ROLE*LEVEL/out=WORK.EMCODEMETA;
+15227  run;
+ 
+NOTE: There were 28 observations read from the data set EMWS3.EMCODE_VARIABLESET.
+NOTE: The data set WORK.EMCODEMETA has 6 observations and 4 variables.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.01 seconds
+ 
+ 
+15228  proc print data=WORK.EMCODEMETA label noobs;
+15229  var ROLE LEVEL COUNT;
+15230  label ROLE = "%sysfunc(sasmsg(sashelp.dmine, meta_role_vlabel, NOQUOTE))" LEVEL = "%sysfunc(sasmsg(sashelp.dmine, meta_level_vlabel, NOQUOTE))" COUNT = "%sysfunc(sasmsg(sashelp.dmine, rpt_count_vlabel, NOQUOTE))";
+15231  title9 ' ';
+15232  title10 "%sysfunc(sasmsg(sashelp.dmine, rpt_varSummary_title  , NOQUOTE))";
+15233  run;
+ 
+NOTE: There were 6 observations read from the data set WORK.EMCODEMETA.
+NOTE: The PROCEDURE PRINT printed page 1.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+ 
+ 
+15234  title10;
+ 
+15235  %let EMEXCEPTIONSTRING=;
+15236  %let syscc = 0;
+PERFORMANCE  DETAILS
+15566  *------------------------------------------------------------*;
+15567  * EMCODE: Generation of macros and macro variables;
+15568  * To see the code generated, set the EM_DEBUG macro variable to SOURCE or _ALL_;
+15569  *------------------------------------------------------------*;
+ 
+15570  %let syscc = 0;
+*------------------------------------------------------------*
+* Score Log
+Date:                May 05, 2022
+Time:                01:09:36
+*------------------------------------------------------------*
+15672  %let syscc = 0;
+15673  *------------------------------------------------------------*;
+15674  * EMCODE: Scoring DATA data;
+15675  *------------------------------------------------------------*;
+15676  data EMWS3.EMCODE_TRAIN
+15677  / view=EMWS3.EMCODE_TRAIN
+15678  ;
+15679  set EMWS3.Ids_DATA
+15680  ;
+15681  run;
+ 
+NOTE: DATA STEP view saved on file EMWS3.EMCODE_TRAIN.
+NOTE: A stored DATA STEP view cannot run under a different operating system.
+NOTE: View EMWS3.IDS_DATA.VIEW used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.03 seconds
+ 
+NOTE: DATA statement used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.03 seconds
+ 
+ 
+15682  quit;
+ 
+15684  *------------------------------------------------------------*;
+15685  * EMCODE: Computing metadata for TRAIN data;
+15686  *------------------------------------------------------------*;
+ 
+NOTE: View EMWS3.EMCODE_TRAIN.VIEW used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+ 
+NOTE: View EMWS3.EMCODE_TRAIN.VIEW used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+ 
+*------------------------------------------------------------*
+* Report Log
+Date:                May 05, 2022
+Time:                01:09:37
+*------------------------------------------------------------*
+16047  %let syscc = 0;
+16048  %inc "C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5916_DESKTOP-IGMQS45_\USERREPORTCODE.sas";
+NOTE: %INCLUDE (level 1) file C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5916_DESKTOP-IGMQS45_\USERREPORTCODE.sas is file C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5916_DESKTOP-IGMQS45_\USERREPORTCODE.sas.
+16049 +/* Set image path for ODS */
+16050 +ODS LISTING GPATH="C:\Users\Kyle McLester\Desktop\dsba-6201\project-02\images\ODS_PLOTS\veterans";
+16051 +
+16052 +/* Enable ODS Graphics */
+16053 +ODS GRAPHICS ON;
+16054 +
+16055 +/* univariate analysis */
+16056 +PROC UNIVARIATE data=DATA.PVA97NK NORMAL PLOT;
+16057 +run;
+ 
+NOTE: The PROCEDURE UNIVARIATE printed pages 2-24.
+NOTE: PROCEDURE UNIVARIATE used (Total process time):
+      real time           12.37 seconds
+      cpu time            3.98 seconds
+ 
+ 
+16058 +
+16059 +PROC CORR DATA=DATA.PVA97NK COV PLOTS=MATRIX;
+16060 +run;
+ 
+WARNING: The scatter plot matrix with more than 5000 points has been suppressed. Use the PLOTS(MAXPOINTS= ) option in the PROC CORR statement to change or override the cutoff.
+NOTE: The PROCEDURE CORR printed page 25.
+NOTE: PROCEDURE CORR used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+ 
+ 
+NOTE: %INCLUDE (level 1) ending.
+16061  /* Reset EM Options */
+16062  options formchar="|----|+|---+=|-/\<>*";
+16063  options nocenter ls=256 ps=10000;
+16064  goptions reset=all device=GIF NODISPLAY;
+ 

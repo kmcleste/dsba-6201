@@ -1,0 +1,2213 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  TargetB  (Target Gift Flag)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean                      0.5    Sum Observations          4843
+Std Deviation      0.50002581    Variance            0.25002581
+Skewness                    0    Kurtosis            -2.0004131
+Uncorrected SS           4843    Corrected SS            2421.5
+Coeff Variation    100.005162    Std Error Mean      0.00508066
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     0.500000     Std Deviation            0.50003
+Median   0.500000     Variance                 0.25003
+Mode     0.000000     Range                    1.00000
+                      Interquartile Range      1.00000
+
+Note: The mode displayed is the smallest of 2 modes with a count of 4843.
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t   98.4124    Pr > |t|    <.0001
+Sign           M    2421.5    Pr >= |M|   <.0001
+Signed Rank    S   5864873    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.341332    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  282.5882    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  1739.842    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           1.0
+99%                1.0
+95%                1.0
+90%                1.0
+75% Q3             1.0
+50% Median         0.5
+25% Q1             0.0
+10%                0.0
+5%                 0.0
+1%                 0.0
+0% Min             0.0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9686            1     9674
+    0     9685            1     9678
+    0     9683            1     9679
+    0     9681            1     9682
+    0     9680            1     9684
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  TargetD  (Target Gift Amount)
+
+                            Moments
+
+N                        4843    Sum Weights               4843
+Mean               15.6243444    Sum Observations       75668.7
+Std Deviation      12.4451371    Variance            154.881438
+Skewness           5.16948973    Kurtosis            52.8509119
+Uncorrected SS     1932209.75    Corrected SS        749935.922
+Coeff Variation    79.6522196    Std Error Mean      0.17883085
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     15.62434     Std Deviation           12.44514
+Median   13.00000     Variance               154.88144
+Mode     10.00000     Range                  199.00000
+                      Interquartile Range     10.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t   87.3694    Pr > |t|    <.0001
+Sign           M    2421.5    Pr >= |M|   <.0001
+Signed Rank    S   5864873    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.166411    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  42.73389    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  261.4632    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           200
+99%                 50
+95%                 32
+90%                 25
+75% Q3              20
+50% Median          13
+25% Q1              10
+10%                  5
+5%                   5
+1%                   3
+0% Min               1
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    1     9478          150     1023
+    1     7004          200      632
+    1     4677          200     1738
+    1      860          200     5751
+    1      698          200     7934
+
+
+               Missing Values
+ 
+                       -----Percent Of-----
+Missing                             Missing
+  Value       Count     All Obs         Obs
+
+      .        4843       50.00      100.00
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftCnt36  (Gift Count 36 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               3.20545117    Sum Observations         31048
+Std Deviation      2.13342144    Variance            4.55148706
+Skewness           1.28835296    Kurtosis            2.04741479
+Uncorrected SS         143604    Corrected SS        44081.1522
+Coeff Variation    66.5560426    Std Error Mean      0.02167726
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     3.205451     Std Deviation            2.13342
+Median   3.000000     Variance                 4.55149
+Mode     2.000000     Range                   16.00000
+                      Interquartile Range      2.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  147.8716    Pr > |t|    <.0001
+Sign           M      4784    Pr >= |M|   <.0001
+Signed Rank    S  22889048    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.182278    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  57.14681    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  335.6024    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            16
+99%                 10
+95%                  7
+90%                  6
+75% Q3               4
+50% Median           3
+25% Q1               2
+10%                  1
+5%                   1
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9672           13     6859
+    0     9654           13     8102
+    0     9641           13     8872
+    0     9441           15     2760
+    0     9435           16     8051
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftCntAll  (Gift Count All Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               10.5076399    Sum Observations        101777
+Std Deviation      8.99340052    Variance            80.8812529
+Skewness           1.86310873    Kurtosis            6.04776561
+Uncorrected SS        1852771    Corrected SS        783334.935
+Coeff Variation    85.5891581    Std Error Mean      0.09138012
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     10.50764     Std Deviation            8.99340
+Median    8.00000     Variance                80.88125
+Mode      1.00000     Range                   90.00000
+                      Interquartile Range     11.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  114.9883    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.145215    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  51.68587    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  318.6194    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            91
+99%                 42
+95%                 28
+90%                 22
+75% Q3              15
+50% Median           8
+25% Q1               4
+10%                  2
+5%                   1
+1%                   1
+0% Min               1
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    1     9678           77     6981
+    1     9676           80     3320
+    1     9675           82     3230
+    1     9674           89     4627
+    1     9669           91     1259
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftCntCard36  (Gift Count Card 36 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               1.85659715    Sum Observations         17983
+Std Deviation       1.5954185    Variance            2.54536019
+Skewness           1.17245243    Kurtosis            1.49486744
+Uncorrected SS          58039    Corrected SS        24651.8134
+Coeff Variation    85.9324006    Std Error Mean      0.01621072
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     1.856597     Std Deviation            1.59542
+Median   1.000000     Variance                 2.54536
+Mode     1.000000     Range                    9.00000
+                      Interquartile Range      2.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t   114.529    Pr > |t|    <.0001
+Sign           M      3953    Pr >= |M|   <.0001
+Signed Rank    S  15628186    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.208465    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  66.39408    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  376.3628    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max             9
+99%                  7
+95%                  5
+90%                  4
+75% Q3               3
+50% Median           1
+25% Q1               1
+10%                  0
+5%                   0
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9685            9     4952
+    0     9680            9     6176
+    0     9678            9     7258
+    0     9672            9     7475
+    0     9665            9     8051
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftCntCardAll  (Gift Count Card All Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               5.58249019    Sum Observations         54072
+Std Deviation      4.73689361    Variance            22.4381611
+Skewness           1.33135329    Kurtosis            2.02486431
+Uncorrected SS         519170    Corrected SS         217313.59
+Coeff Variation    84.8526993    Std Error Mean      0.04813061
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     5.582490     Std Deviation            4.73689
+Median   4.000000     Variance                22.43816
+Mode     1.000000     Range                   41.00000
+                      Interquartile Range      6.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  115.9863    Pr > |t|    <.0001
+Sign           M      4638    Pr >= |M|   <.0001
+Signed Rank    S  21513363    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.152417    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  52.83034    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  319.5365    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            41
+99%                 21
+95%                 15
+90%                 12
+75% Q3               8
+50% Median           4
+25% Q1               2
+10%                  1
+5%                   1
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9678           29      716
+    0     9665           29     2433
+    0     9596           29     2676
+    0     9578           29     8102
+    0     9557           41     4627
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftAvgLast  (Gift Amount Last)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean                16.017739    Sum Observations     155147.82
+Std Deviation      12.0418046    Variance            145.005057
+Skewness           9.91889309    Kurtosis            246.050417
+Uncorrected SS     3889491.27    Corrected SS        1404373.98
+Coeff Variation    75.1779297    Std Error Mean      0.12235433
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     16.01774     Std Deviation           12.04180
+Median   15.00000     Variance               145.00506
+Mode     15.00000     Range                  450.00000
+                      Interquartile Range     10.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  130.9127    Pr > |t|    <.0001
+Sign           M      4828    Pr >= |M|   <.0001
+Signed Rank    S  23311998    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.198434    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  89.84512    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  549.2795    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           450
+99%                 50
+95%                 30
+90%                 25
+75% Q3              20
+50% Median          15
+25% Q1              10
+10%                  6
+5%                   5
+1%                   3
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9010          200     2055
+    0     8945          219     7454
+    0     8499          250     1738
+    0     8403          300     7934
+    0     7819          450     7390
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftAvg36  (Gift Amount Average 36 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               14.8762028    Sum Observations      144090.9
+Std Deviation      10.0570072    Variance            101.143393
+Skewness           5.62779157    Kurtosis            77.0999664
+Uncorrected SS     3123099.21    Corrected SS        979573.762
+Coeff Variation    67.6046658    Std Error Mean      0.10218721
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     14.87620     Std Deviation           10.05701
+Median   13.50000     Variance               101.14339
+Mode     15.00000     Range                  260.00000
+                      Interquartile Range      8.90000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  145.5779    Pr > |t|    <.0001
+Sign           M      4784    Pr >= |M|   <.0001
+Signed Rank    S  22889048    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.153754    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  65.62917    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  403.3827    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max         260.0
+99%               50.0
+95%               27.5
+90%               25.0
+75% Q3            18.5
+50% Median        13.5
+25% Q1             9.6
+10%                6.0
+5%                 5.0
+1%                 0.0
+0% Min             0.0
+
+
+         Extreme Observations
+ 
+----Lowest----        ----Highest----
+ 
+Value      Obs         Value      Obs
+
+    0     9672         150.0     5606
+    0     9654         150.0     7934
+    0     9641         162.5      327
+    0     9441         200.0     2055
+    0     9435         260.0     1379
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftAvgAll  (Gift Amount Average All Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               12.4893248    Sum Observations      120971.6
+Std Deviation      9.20929657    Variance            84.8111434
+Skewness           14.4864894    Kurtosis            561.755234
+Uncorrected SS     2332249.53    Corrected SS        821395.924
+Coeff Variation    73.7373455    Std Error Mean      0.09357379
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     12.48932     Std Deviation            9.20930
+Median   10.71000     Variance                84.81114
+Mode     15.00000     Range                  448.50000
+                      Interquartile Range      7.25000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  133.4703    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.168846    Pr > D     <0.0100
+Cramer-von Mises      W-Sq   94.8393    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  562.4428    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max        450.00
+99%              40.40
+95%              25.00
+90%              20.00
+75% Q3           15.00
+50% Median       10.71
+25% Q1            7.75
+10%               5.50
+5%                4.63
+1%                3.33
+0% Min            1.50
+
+
+         Extreme Observations
+ 
+----Lowest----        -----Highest----
+ 
+Value      Obs          Value      Obs
+
+ 1.50     1327         111.11     4464
+ 2.26     3317         122.17     7454
+ 2.30     5884         138.75     1379
+ 2.32     4848         200.00     2055
+ 2.36     5064         450.00     7390
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftAvgCard36  (Gift Amount Average Card 36 Months)
+
+                            Moments
+
+N                        7906    Sum Weights               7906
+Mean               14.2244308    Sum Observations     112458.35
+Std Deviation      10.0227103    Variance            100.454722
+Skewness            6.0514546    Kurtosis            87.1262666
+Uncorrected SS      2393750.6    Corrected SS        794094.577
+Coeff Variation    70.4612398    Std Error Mean       0.1127215
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     14.22443     Std Deviation           10.02271
+Median   12.50000     Variance               100.45472
+Mode     15.00000     Range                  258.67000
+                      Interquartile Range      9.33000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  126.1909    Pr > |t|    <.0001
+Sign           M      3953    Pr >= |M|   <.0001
+Signed Rank    S  15628186    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.160281    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  57.34033    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  358.7818    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max        260.00
+99%              50.00
+95%              26.00
+90%              25.00
+75% Q3           18.00
+50% Median       12.50
+25% Q1            8.67
+10%               5.40
+5%                5.00
+1%                3.40
+0% Min            1.33
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+ 1.33     5898          125     7402
+ 1.67     9515          150     4464
+ 1.75     1327          160     6510
+ 2.00     2409          200     7125
+ 2.00     2018          260     1379
+
+
+               Missing Values
+ 
+                       -----Percent Of-----
+Missing                             Missing
+  Value       Count     All Obs         Obs
+
+      .        1780       18.38      100.00
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftTimeLast  (Time Since Last Gift)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               18.0021681    Sum Observations        174369
+Std Deviation      4.07354884    Variance            16.5938002
+Skewness           -0.7780473    Kurtosis            2.46907626
+Uncorrected SS        3299731    Corrected SS        160710.954
+Coeff Variation    22.6281014    Std Error Mean       0.0413905
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     18.00217     Std Deviation            4.07355
+Median   18.00000     Variance                16.59380
+Mode     18.00000     Range                   23.00000
+                      Interquartile Range      4.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  434.9348    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.172955    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  48.18588    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq   294.622    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            27
+99%                 26
+95%                 25
+90%                 24
+75% Q3              20
+50% Median          18
+25% Q1              16
+10%                 15
+5%                  10
+1%                   4
+0% Min               4
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    4     9580           27     8320
+    4     9547           27     8573
+    4     9482           27     8582
+    4     9453           27     8917
+    4     9387           27     9641
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  GiftTimeFirst  (Time Since First Gift)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean                71.100351    Sum Observations        688678
+Std Deviation      37.6919838    Variance            1420.68564
+Skewness           0.19539918    Kurtosis            -1.2478671
+Uncorrected SS       62724588    Corrected SS        13759340.5
+Coeff Variation    53.0123737    Std Error Mean      0.38298059
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     71.10035     Std Deviation           37.69198
+Median   68.00000     Variance                    1421
+Mode     41.00000     Range                  245.00000
+                      Interquartile Range     69.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t    185.65    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D      0.12105    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  30.94518    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  220.4443    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           260
+99%                130
+95%                129
+90%                126
+75% Q3             105
+50% Median          68
+25% Q1              36
+10%                 23
+5%                  19
+1%                  16
+0% Min              15
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+   15     9676          170     9547
+   15     9557          187       54
+   15     9497          198     1522
+   15     8870          230     1259
+   15     8399          260     3230
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  PromCnt12  (Promotion Count 12 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               12.9888499    Sum Observations        125810
+Std Deviation      4.82345838    Variance            23.2657507
+Skewness           2.87372299    Kurtosis            11.9953775
+Uncorrected SS        1859456    Corrected SS        225328.796
+Coeff Variation     37.135377    Std Error Mean      0.04901018
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     12.98885     Std Deviation            4.82346
+Median   12.00000     Variance                23.26575
+Mode     13.00000     Range                   57.00000
+                      Interquartile Range      2.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  265.0235    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.281524    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  164.0378    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  865.1068    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            59
+99%                 34
+95%                 24
+90%                 15
+75% Q3              13
+50% Median          12
+25% Q1              11
+10%                  9
+5%                   8
+1%                   5
+0% Min               2
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    2     8356           48     5305
+    2     6244           48     7785
+    2     5935           49     3456
+    2      487           58     6798
+    3     6270           59     7442
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  PromCnt36  (Promotion Count 36 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               29.3482346    Sum Observations        284267
+Std Deviation      7.80974336    Variance            60.9920914
+Skewness           0.26195765    Kurtosis             2.1743413
+Uncorrected SS        8933443    Corrected SS        590708.405
+Coeff Variation     26.610607    Std Error Mean      0.07935322
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     29.34823     Std Deviation            7.80974
+Median   31.00000     Variance                60.99209
+Mode     32.00000     Range                   74.00000
+                      Interquartile Range      8.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t   369.843    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.133454    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  33.60452    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  191.3851    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            78
+99%                 53
+95%                 41
+90%                 36
+75% Q3              33
+50% Median          31
+25% Q1              25
+10%                 18
+5%                  15
+1%                  10
+0% Min               4
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    4     8917           68     5305
+    5     1279           70     7785
+    6     9049           71     3456
+    6     8356           77     6798
+    7     8202           78     7442
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  PromCntAll  (Promotion Count All Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               48.4834813    Sum Observations        469611
+Std Deviation      23.0614829    Variance            531.831993
+Skewness           0.46076538    Kurtosis            0.21659551
+Uncorrected SS       27919169    Corrected SS        5150792.86
+Coeff Variation    47.5656497    Std Error Mean      0.23432304
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     48.48348     Std Deviation           23.06148
+Median   48.00000     Variance               531.83199
+Mode     13.00000     Range                  169.00000
+                      Interquartile Range     36.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  206.9087    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.056669    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  7.122273    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  55.00711    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max           174
+99%                114
+95%                 83
+90%                 76
+75% Q3              65
+50% Median          48
+25% Q1              29
+10%                 18
+5%                  14
+1%                  12
+0% Min               5
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    5     9049          144     3839
+    6     6603          147     4058
+    6      776          147     6676
+    6      510          157     4627
+    7     9159          174     7442
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  PromCntCard12  (Promotion Count Card 12 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               5.39200909    Sum Observations         52227
+Std Deviation      1.32364781    Variance            1.75204352
+Skewness           0.68499398    Kurtosis            5.79868541
+Uncorrected SS         298577    Corrected SS        16968.5415
+Coeff Variation     24.548323    Std Error Mean      0.01344932
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     5.392009     Std Deviation            1.32365
+Median   6.000000     Variance                 1.75204
+Mode     6.000000     Range                   17.00000
+                      Interquartile Range      1.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  400.9132    Pr > |t|    <.0001
+Sign           M    4842.5    Pr >= |M|   <.0001
+Signed Rank    S  23452228    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.272926    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  138.2563    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  711.9469    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            17
+99%                 11
+95%                  7
+90%                  6
+75% Q3               6
+50% Median           6
+25% Q1               5
+10%                  4
+5%                   3
+1%                   2
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     5935           13     8895
+    1     6607           14     3563
+    1     6603           15     7785
+    1     6270           17     3456
+    1     6244           17     3817
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  PromCntCard36  (Promotion Count Card 36 Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               11.9546769    Sum Observations        115793
+Std Deviation      4.57156825    Variance            20.8992363
+Skewness           -0.4265996    Kurtosis            -0.9868455
+Uncorrected SS        1586677    Corrected SS        202409.103
+Coeff Variation     38.240835    Std Error Mean      0.04645078
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     11.95468     Std Deviation            4.57157
+Median   13.00000     Variance                20.89924
+Mode     17.00000     Range                   26.00000
+                      Interquartile Range      9.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  257.3623    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.149787    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  53.96124    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  327.1179    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            28
+99%                 20
+95%                 17
+90%                 17
+75% Q3              16
+50% Median          13
+25% Q1               7
+10%                  5
+5%                   4
+1%                   3
+0% Min               2
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    2     9427           24     8895
+    2     9286           25     3563
+    2     8917           26     7785
+    2     8740           27     3817
+    2     8599           28     3456
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  PromCntCardAll  (Promotion Count Card All Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               19.0071237    Sum Observations        184103
+Std Deviation      8.56219319    Variance            73.3111521
+Skewness           0.14285596    Kurtosis            -0.7803156
+Uncorrected SS        4209287    Corrected SS        710018.508
+Coeff Variation     45.047285    Std Error Mean      0.08699871
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     19.00712     Std Deviation            8.56219
+Median   19.00000     Variance                73.31115
+Mode     15.00000     Range                   54.00000
+                      Interquartile Range     14.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  218.4759    Pr > |t|    <.0001
+Sign           M      4843    Pr >= |M|   <.0001
+Signed Rank    S  23457071    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.067225    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  10.33865    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  71.45289    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            56
+99%                 36
+95%                 32
+90%                 31
+75% Q3              26
+50% Median          19
+25% Q1              12
+10%                  7
+5%                   6
+1%                   5
+0% Min               2
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    2     6603           51     6536
+    2      776           51     7899
+    2      510           54     9092
+    3     9159           55     6676
+    3     9049           56     4031
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  StatusCatStarAll  (Status Category Star All Months)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               0.54057402    Sum Observations          5236
+Std Deviation      0.49837676    Variance            0.24837939
+Skewness           -0.1628583    Kurtosis            -1.9738848
+Uncorrected SS           5236    Corrected SS        2405.55441
+Coeff Variation     92.193989    Std Error Mean       0.0050639
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     0.540574     Std Deviation            0.49838
+Median   1.000000     Variance                 0.24838
+Mode     1.000000     Range                    1.00000
+                      Interquartile Range      1.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  106.7504    Pr > |t|    <.0001
+Sign           M      2618    Pr >= |M|   <.0001
+Signed Rank    S   6855233    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.362269    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  286.6693    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  1755.163    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max             1
+99%                  1
+95%                  1
+90%                  1
+75% Q3               1
+50% Median           1
+25% Q1               0
+10%                  0
+5%                   0
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9685            1     9671
+    0     9683            1     9677
+    0     9682            1     9681
+    0     9680            1     9684
+    0     9679            1     9686
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  DemAge  (Age)
+
+                            Moments
+
+N                        7279    Sum Weights               7279
+Mean               59.1508449    Sum Observations        430559
+Std Deviation      16.5164003    Variance            272.791477
+Skewness           -0.3879117    Kurtosis            -0.4776079
+Uncorrected SS       27453305    Corrected SS        1985376.37
+Coeff Variation    27.9225094    Std Error Mean      0.19358849
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     59.15084     Std Deviation           16.51640
+Median   60.00000     Variance               272.79148
+Mode     73.00000     Range                   87.00000
+                      Interquartile Range     26.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  305.5494    Pr > |t|    <.0001
+Sign           M      3639    Pr >= |M|   <.0001
+Signed Rank    S  13244141    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.078074    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  8.375493    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  53.38152    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            87
+99%                 87
+95%                 83
+90%                 80
+75% Q3              73
+50% Median          60
+25% Q1              47
+10%                 37
+5%                  31
+1%                  17
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     4100           87     8842
+    2     7461           87     9164
+    4     9359           87     9397
+    6     4897           87     9581
+    6     4035           87     9625
+
+
+               Missing Values
+ 
+                       -----Percent Of-----
+Missing                             Missing
+  Value       Count     All Obs         Obs
+
+      .        2407       24.85      100.00
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  DemMedHomeValue  (Median Home Value Region)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean                 110986.3    Sum Observations    1075013300
+Std Deviation      98670.8554    Variance            9735937715
+Skewness           2.37821065    Kurtosis            6.45136516
+Uncorrected SS     2.13604E14    Corrected SS        9.42926E13
+Coeff Variation    88.9036355    Std Error Mean      1002.57452
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     110986.3     Std Deviation              98671
+Median    76900.0     Variance              9735937715
+Mode          0.0     Range                     600000
+                      Interquartile Range        75900
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  110.7013    Pr > |t|    <.0001
+Sign           M    4791.5    Pr >= |M|   <.0001
+Signed Rank    S  22960868    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.205315    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  147.2812    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  796.7174    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max        600000
+99%             540700
+95%             327600
+90%             231500
+75% Q3          128200
+50% Median       76900
+25% Q1           52300
+10%              38400
+5%               31600
+1%                   0
+0% Min               0
+
+
+         Extreme Observations
+ 
+----Lowest----        -----Highest----
+ 
+Value      Obs          Value      Obs
+
+    0     9629         597600     7084
+    0     9483         598000     7114
+    0     9365         598200     7115
+    0     9332         600000     7024
+    0     9296         600000     7042
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  DemPctVeterans  (Percent Veterans Region)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               30.6042742    Sum Observations        296433
+Std Deviation      11.3949884    Variance             129.84576
+Skewness           -0.2070585    Kurtosis            1.27441041
+Uncorrected SS       10329673    Corrected SS        1257556.18
+Coeff Variation    37.2333233    Std Error Mean      0.11578216
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     30.60427     Std Deviation           11.39499
+Median   31.00000     Variance               129.84576
+Mode     32.00000     Range                   85.00000
+                      Interquartile Range     12.00000
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  264.3263    Pr > |t|    <.0001
+Sign           M      4671    Pr >= |M|   <.0001
+Signed Rank    S  21820577    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.068319    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  9.572634    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  67.67036    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max            85
+99%                 59
+95%                 48
+90%                 44
+75% Q3              37
+50% Median          31
+25% Q1              25
+10%                 18
+5%                  11
+1%                   0
+0% Min               0
+
+
+        Extreme Observations
+ 
+----Lowest----        ----Highest---
+ 
+Value      Obs        Value      Obs
+
+    0     9671           78     6640
+    0     9660           78     6790
+    0     9623           79     6710
+    0     9588           79     6712
+    0     9543           85        2
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The UNIVARIATE Procedure
+Variable:  DemMedIncome  (Median Income Region)
+
+                            Moments
+
+N                        9686    Sum Weights               9686
+Mean               40491.4442    Sum Observations     392200129
+Std Deviation      28707.4941    Variance             824120220
+Skewness           0.31002487    Kurtosis            0.63684758
+Uncorrected SS     2.38624E13    Corrected SS         7.9816E12
+Coeff Variation    70.8976789    Std Error Mean      291.691016
+
+
+              Basic Statistical Measures
+ 
+    Location                    Variability
+
+Mean     40491.44     Std Deviation              28707
+Median   43100.00     Variance               824120220
+Mode         0.00     Range                     200001
+                      Interquartile Range        32423
+
+
+           Tests for Location: Mu0=0
+ 
+Test           -Statistic-    -----p Value------
+
+Student's t    t  138.8162    Pr > |t|    <.0001
+Sign           M    3664.5    Pr >= |M|   <.0001
+Signed Rank    S  13430393    Pr >= |S|   <.0001
+
+
+                   Tests for Normality
+ 
+Test                  --Statistic---    -----p Value------
+
+Kolmogorov-Smirnov    D     0.164142    Pr > D     <0.0100
+Cramer-von Mises      W-Sq  33.07518    Pr > W-Sq  <0.0050
+Anderson-Darling      A-Sq  253.6076    Pr > A-Sq  <0.0050
+
+
+Quantiles (Definition 5)
+ 
+Level         Quantile
+
+100% Max        200001
+99%             118256
+95%              84676
+90%              73130
+75% Q3           56887
+50% Median       43100
+25% Q1           24464
+10%                  0
+5%                   0
+1%                   0
+0% Min               0
+
+
+         Extreme Observations
+ 
+----Lowest----        -----Highest----
+ 
+Value      Obs          Value      Obs
+
+    0     9684         174305     1545
+    0     9680         174957      771
+    0     9679         174957      772
+    0     9678         200001     7647
+    0     9675         200001     8279
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The CORR Procedure
+
+  23  Variables:    TargetB          TargetD          GiftCnt36        GiftCntAll       GiftCntCard36    GiftCntCardAll   GiftAvgLast      GiftAvg36        GiftAvgAll       GiftAvgCard36    GiftTimeLast     GiftTimeFirst    PromCnt12        PromCnt36      
+                    PromCntAll       PromCntCard12    PromCntCard36    PromCntCardAll   StatusCatStarAll DemAge           DemMedHomeValue  DemPctVeterans   DemMedIncome                                                                                        
+
+
+                                                                                                                Variances and Covariances 
+                                                                                                  Covariance / Row Var Variance / Col Var Variance / DF
+ 
+                                                                                                                     GiftCnt           GiftCnt                                                                 GiftAvg                            GiftTime
+                                             TargetB           TargetD         GiftCnt36        GiftCntAll            Card36           CardAll       GiftAvgLast         GiftAvg36        GiftAvgAll            Card36      GiftTimeLast             First
+
+TargetB                                            0                 0                 0                 0                 0                 0                -0                -0                -0                -0                -0                 1
+Target Gift Flag                                   0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+TargetD                                            0               155                -9               -26                -5               -14               109                85                65                78                 5               -60
+Target Gift Amount                               155               155               155               155               155               155               155               155               155               153               155               155
+                                                   0               155                 5                88                 3                24               183                93               103                87                18              1406
+                                                4842              4842              4842              4842              4842              4842              4842              4842              4842              4110              4842              4842
+
+GiftCnt36                                          0                -9                 5                11                 3                 5                -8                -7                -6                -8                -2                15
+Gift Count 36 Months                               5                 5                 5                 5                 5                 5                 5                 5                 5                 5                 5                 5
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftCntAll                                         0               -26                11                81                 7                39               -23               -20               -24               -21                -8               245
+Gift Count All Months                             81                88                81                81                81                81                81                81                81                89                81                81
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftCntCard36                                      0                -5                 3                 7                 3                 4                -5                -5                -4                -4                -1                 7
+Gift Count Card 36 Months                          3                 3                 3                 3                 3                 3                 3                 3                 3                 2                 3                 3
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftCntCardAll                                     0               -14                 5                39                 4                22               -13               -11               -13               -11                -3               134
+Gift Count Card All Months                        22                24                22                22                22                22                22                22                22                24                22                22
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftAvgLast                                       -0               109                -8               -23                -5               -13               145                92                90                85                 5               -48
+Gift Amount Last                                 145               183               145               145               145               145               145               145               145               117               145               145
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftAvg36                                         -0                85                -7               -20                -5               -11                92               101                69                94                 4               -32
+Gift Amount Average 36 Months                    101                93               101               101               101               101               101               101               101                94               101               101
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftAvgAll                                        -0                65                -6               -24                -4               -13                90                69                85                69                 3               -87
+Gift Amount Average All Months                    85               103                85                85                85                85                85                85                85                62                85                85
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftAvgCard36                                     -0                78                -8               -21                -4               -11                85                94                69               100                 3               -39
+Gift Amount Average Card 36 Months               100                87               100               100               100               100               100               100               100               100               100               100
+                                                   0               153                 5                89                 2                24               117                94                62               100                16              1439
+                                                7905              4110              7905              7905              7905              7905              7905              7905              7905              7905              7905              7905
+
+GiftTimeLast                                      -0                 5                -2                -8                -1                -3                 5                 4                 3                 3                17                -7
+Time Since Last Gift                              17                18                17                17                17                17                17                17                17                16                17                17
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+GiftTimeFirst                                      1               -60                15               245                 7               134               -48               -32               -87               -39                -7              1421
+Time Since First Gift                           1421              1406              1421              1421              1421              1421              1421              1421              1421              1439              1421              1421
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+PromCnt12                                          0                 4                 2                14                 1                 4                 4                 4                 4                 4               -10                27
+Promotion Count 12 Months                         23                28                23                23                23                23                23                23                23                24                23                23
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+PromCnt36                                          0                 1                 7                34                 4                14                 1                 4                -6                 1               -10               123
+Promotion Count 36 Months                         61                64                61                61                61                61                61                61                61                60                61                61
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+PromCntAll                                         1               -17                14               164                 8                81               -13                -6               -34                -9               -19               747
+Promotion Count All Months                       532               538               532               532               532               532               532               532               532               547               532               532
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+PromCntCard12                                      0                 0                 1                 3                 1                 1                 0                 0                -0                 0                -2                 6
+Promotion Count Card 12 Months                     2                 2                 2                 2                 2                 2                 2                 2                 2                 2                 2                 2
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+PromCntCard36                                      0                -6                 6                18                 5                10                -6                -4                -6                -1                -3                44
+Promotion Count Card 36 Months                    21                20                21                21                21                21                21                21                21                12                21                21
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+PromCntCardAll                                     0               -10                 6                59                 3                32                -8                -5               -17                -6                -4               293
+Promotion Count Card All Months                   73                73                73                73                73                73                73                73                73                75                73                73
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+StatusCatStarAll                                   0                -1                 0                 3                 0                 2                -1                -1                -1                -1                -0                10
+Status Category Star All Months                    0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+DemAge                                             0               -11                 2                29                 1                15                -9                -7               -10                -5                -6               147
+Age                                              273               254               273               273               273               273               273               273               273               275               273               273
+                                                   0               144                 4                79                 3                22               115                95                61                91                16              1410
+                                                7278              3678              7278              7278              7278              7278              7278              7278              7278              5907              7278              7278
+
+DemMedHomeValue                                 2692            162075            -13304            -62291             -5613            -30552            133612            116543            107394            116321              1353           -212053
+Median Home Value Region                  9735937715       10652400744        9735937715        9735937715        9735937715        9735937715        9735937715        9735937715        9735937715        9422396438        9735937715        9735937715
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+DemPctVeterans                                     0                -3                 0                -0                 0                 0                -3                -3                -4                -4                 2                 9
+Percent Veterans Region                          130               134               130               130               130               130               130               130               130               129               130               130
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+DemMedIncome                                     193             10517             -2882             -8730             -1165             -3446             12352              8313              8405             13235              1585               154
+Median Income Region                       824120220         841410045         824120220         824120220         824120220         824120220         824120220         824120220         824120220         828769420         824120220         824120220
+                                                   0               155                 5                81                 3                22               145               101                85               100                17              1421
+                                                9685              4842              9685              9685              9685              9685              9685              9685              9685              7905              9685              9685
+
+                                                                                                       Variances and Covariances 
+                                                                                         Covariance / Row Var Variance / Col Var Variance / DF
+ 
+                                                                                                   PromCnt           PromCnt           PromCnt         StatusCat                          DemMedHome            DemPct
+                                           PromCnt12         PromCnt36        PromCntAll            Card12            Card36           CardAll           StarAll            DemAge             Value          Veterans      DemMedIncome
+
+TargetB                                            0                 0                 1                 0                 0                 0                 0                 0              2692                 0               193
+Target Gift Flag                                   0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+TargetD                                            4                 1               -17                 0                -6               -10                -1               -11            162075                -3             10517
+Target Gift Amount                               155               155               155               155               155               155               155               144               155               155               155
+                                                  28                64               538                 2                20                73                 0               254       10652400744               134         841410045
+                                                4842              4842              4842              4842              4842              4842              4842              3678              4842              4842              4842
+
+GiftCnt36                                          2                 7                14                 1                 6                 6                 0                 2            -13304                 0             -2882
+Gift Count 36 Months                               5                 5                 5                 5                 5                 5                 5                 4                 5                 5                 5
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftCntAll                                        14                34               164                 3                18                59                 3                29            -62291                -0             -8730
+Gift Count All Months                             81                81                81                81                81                81                81                79                81                81                81
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftCntCard36                                      1                 4                 8                 1                 5                 3                 0                 1             -5613                 0             -1165
+Gift Count Card 36 Months                          3                 3                 3                 3                 3                 3                 3                 3                 3                 3                 3
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftCntCardAll                                     4                14                81                 1                10                32                 2                15            -30552                 0             -3446
+Gift Count Card All Months                        22                22                22                22                22                22                22                22                22                22                22
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftAvgLast                                        4                 1               -13                 0                -6                -8                -1                -9            133612                -3             12352
+Gift Amount Last                                 145               145               145               145               145               145               145               115               145               145               145
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftAvg36                                          4                 4                -6                 0                -4                -5                -1                -7            116543                -3              8313
+Gift Amount Average 36 Months                    101               101               101               101               101               101               101                95               101               101               101
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftAvgAll                                         4                -6               -34                -0                -6               -17                -1               -10            107394                -4              8405
+Gift Amount Average All Months                    85                85                85                85                85                85                85                61                85                85                85
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftAvgCard36                                      4                 1                -9                 0                -1                -6                -1                -5            116321                -4             13235
+Gift Amount Average Card 36 Months               100               100               100               100               100               100               100                91               100               100               100
+                                                  24                60               547                 2                12                75                 0               275        9422396438               129         828769420
+                                                7905              7905              7905              7905              7905              7905              7905              5907              7905              7905              7905
+
+GiftTimeLast                                     -10               -10               -19                -2                -3                -4                -0                -6              1353                 2              1585
+Time Since Last Gift                              17                17                17                17                17                17                17                16                17                17                17
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+GiftTimeFirst                                     27               123               747                 6                44               293                10               147           -212053                 9               154
+Time Since First Gift                           1421              1421              1421              1421              1421              1421              1421              1410              1421              1421              1421
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+PromCnt12                                         23                29                58                 4                 8                14                 0                 7             14640                -3              3668
+Promotion Count 12 Months                         23                23                23                23                23                23                23                22                23                23                23
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+PromCnt36                                         29                61               132                 7                23                43                 1                14              5933                -1              7820
+Promotion Count 36 Months                         61                61                61                61                61                61                61                56                61                61                61
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+PromCntAll                                        58               132               532                13                47               187                 6                82            -55478                -2             12317
+Promotion Count All Months                       532               532               532               532               532               532               532               519               532               532               532
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+PromCntCard12                                      4                 7                13                 2                 4                 5                 0                 1               882                -0              1494
+Promotion Count Card 12 Months                     2                 2                 2                 2                 2                 2                 2                 2                 2                 2                 2
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+PromCntCard36                                      8                23                47                 4                21                19                 1                 6             -6764                 1              2246
+Promotion Count Card 36 Months                    21                21                21                21                21                21                21                21                21                21                21
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+PromCntCardAll                                    14                43               187                 5                19                73                 2                30            -34774                 1              3031
+Promotion Count Card All Months                   73                73                73                73                73                73                73                72                73                73                73
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+StatusCatStarAll                                   0                 1                 6                 0                 1                 2                 0                 1             -3097                 0              -264
+Status Category Star All Months                    0                 0                 0                 0                 0                 0                 0                 0                 0                 0                 0
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+DemAge                                             7                14                82                 1                 6                30                 1               273             -2049                16            -11233
+Age                                              273               273               273               273               273               273               273               273               273               273               273
+                                                  22                56               519                 2                21                72                 0               273        9631001711               121         686676700
+                                                7278              7278              7278              7278              7278              7278              7278              7278              7278              7278              7278
+
+DemMedHomeValue                                14640              5933            -55478               882             -6764            -34774             -3097             -2049        9735937715            -60076         903258803
+Median Home Value Region                  9735937715        9735937715        9735937715        9735937715        9735937715        9735937715        9735937715        9631001711        9735937715        9735937715        9735937715
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+DemPctVeterans                                    -3                -1                -2                -0                 1                 1                 0                16            -60076               130             13935
+Percent Veterans Region                          130               130               130               130               130               130               130               121               130               130               130
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+DemMedIncome                                    3668              7820             12317              1494              2246              3031              -264            -11233         903258803             13935         824120220
+Median Income Region                       824120220         824120220         824120220         824120220         824120220         824120220         824120220         686676700         824120220         824120220         824120220
+                                                  23                61               532                 2                21                73                 0               273        9735937715               130         824120220
+                                                9685              9685              9685              9685              9685              9685              9685              7278              9685              9685              9685
+
+
+                                                           Simple Statistics
+ 
+Variable                   N          Mean       Std Dev           Sum       Minimum       Maximum    Label
+
+TargetB                 9686       0.50000       0.50003          4843             0       1.00000    Target Gift Flag                  
+TargetD                 4843      15.62434      12.44514         75669       1.00000     200.00000    Target Gift Amount                
+GiftCnt36               9686       3.20545       2.13342         31048             0      16.00000    Gift Count 36 Months              
+GiftCntAll              9686      10.50764       8.99340        101777       1.00000      91.00000    Gift Count All Months             
+GiftCntCard36           9686       1.85660       1.59542         17983             0       9.00000    Gift Count Card 36 Months         
+GiftCntCardAll          9686       5.58249       4.73689         54072             0      41.00000    Gift Count Card All Months        
+GiftAvgLast             9686      16.01774      12.04180        155148             0     450.00000    Gift Amount Last                  
+GiftAvg36               9686      14.87620      10.05701        144091             0     260.00000    Gift Amount Average 36 Months     
+GiftAvgAll              9686      12.48932       9.20930        120972       1.50000     450.00000    Gift Amount Average All Months    
+GiftAvgCard36           7906      14.22443      10.02271        112458       1.33000     260.00000    Gift Amount Average Card 36 Months
+GiftTimeLast            9686      18.00217       4.07355        174369       4.00000      27.00000    Time Since Last Gift              
+GiftTimeFirst           9686      71.10035      37.69198        688678      15.00000     260.00000    Time Since First Gift             
+PromCnt12               9686      12.98885       4.82346        125810       2.00000      59.00000    Promotion Count 12 Months         
+PromCnt36               9686      29.34823       7.80974        284267       4.00000      78.00000    Promotion Count 36 Months         
+PromCntAll              9686      48.48348      23.06148        469611       5.00000     174.00000    Promotion Count All Months        
+PromCntCard12           9686       5.39201       1.32365         52227             0      17.00000    Promotion Count Card 12 Months    
+PromCntCard36           9686      11.95468       4.57157        115793       2.00000      28.00000    Promotion Count Card 36 Months    
+PromCntCardAll          9686      19.00712       8.56219        184103       2.00000      56.00000    Promotion Count Card All Months   
+StatusCatStarAll        9686       0.54057       0.49838          5236             0       1.00000    Status Category Star All Months   
+DemAge                  7279      59.15084      16.51640        430559             0      87.00000    Age                               
+DemMedHomeValue         9686        110986         98671    1075013300             0        600000    Median Home Value Region          
+DemPctVeterans          9686      30.60427      11.39499        296433             0      85.00000    Percent Veterans Region           
+DemMedIncome            9686         40491         28707     392200129             0        200001    Median Income Region              
+
+
+                                                                                    Pearson Correlation Coefficients 
+                                                                                       Prob > |r| under H0: Rho=0 
+                                                                                          Number of Observations
+ 
+                                                                                                                                                                                                      Gift
+                                                                        Gift       GiftCnt       GiftCnt       GiftCnt       GiftAvg          Gift       GiftAvg       GiftAvg          Gift          Time
+                                         TargetB       TargetD         Cnt36           All        Card36       CardAll          Last         Avg36           All        Card36      TimeLast         First
+
+TargetB                                  1.00000        .            0.13783       0.10866       0.13144       0.11260      -0.07049      -0.08211      -0.07084      -0.08647      -0.10769       0.07189
+Target Gift Flag                                         .            <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+TargetD                                   .            1.00000      -0.31230      -0.22025      -0.25691      -0.22959       0.64539       0.70725       0.51672       0.68008       0.09021      -0.12752
+Target Gift Amount                         .                          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            4843          4843          4843          4843          4843          4843          4843          4843          4843          4111          4843          4843
+
+GiftCnt36                                0.13783      -0.31230       1.00000       0.55024       0.84476       0.53243      -0.31170      -0.34354      -0.32677      -0.36546      -0.24222       0.18428
+Gift Count 36 Months                      <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftCntAll                               0.10866      -0.22025       0.55024       1.00000       0.46886       0.91457      -0.21462      -0.21962      -0.29185      -0.22161      -0.20531       0.72212
+Gift Count All Months                     <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftCntCard36                            0.13144      -0.25691       0.84476       0.46886       1.00000       0.55544      -0.26117      -0.28457      -0.25183      -0.29166      -0.17343       0.11099
+Gift Count Card 36 Months                 <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftCntCardAll                           0.11260      -0.22959       0.53243       0.91457       0.55544       1.00000      -0.22055      -0.22653      -0.30409      -0.22282      -0.13001       0.74787
+Gift Count Card All Months                <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftAvgLast                             -0.07049       0.64539      -0.31170      -0.21462      -0.26117      -0.22055       1.00000       0.76324       0.81280       0.78136       0.10752      -0.10597
+Gift Amount Last                          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftAvg36                               -0.08211       0.70725      -0.34354      -0.21962      -0.28457      -0.22653       0.76324       1.00000       0.74408       0.96361       0.08555      -0.08568
+Gift Amount Average 36 Months             <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftAvgAll                              -0.07084       0.51672      -0.32677      -0.29185      -0.25183      -0.30409       0.81280       0.74408       1.00000       0.87376       0.07399      -0.24971
+Gift Amount Average All Months            <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftAvgCard36                           -0.08647       0.68008      -0.36546      -0.22161      -0.29166      -0.22282       0.78136       0.96361       0.87376       1.00000       0.08715      -0.10197
+Gift Amount Average Card 36 Months        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001
+                                            7906          4111          7906          7906          7906          7906          7906          7906          7906          7906          7906          7906
+
+GiftTimeLast                            -0.10769       0.09021      -0.24222      -0.20531      -0.17343      -0.13001       0.10752       0.08555       0.07399       0.08715       1.00000      -0.04527
+Time Since Last Gift                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+GiftTimeFirst                            0.07189      -0.12752       0.18428       0.72212       0.11099       0.74787      -0.10597      -0.08568      -0.24971      -0.10197      -0.04527       1.00000
+Time Since First Gift                     <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001              
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+PromCnt12                                0.04859       0.06449       0.19618       0.31216       0.16334       0.18381       0.07393       0.08364       0.08467       0.09056      -0.53306       0.14901
+Promotion Count 12 Months                 <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+PromCnt36                                0.06849       0.00734       0.39392       0.47966       0.28100       0.38417       0.00673       0.05201      -0.08309       0.01136      -0.31802       0.41934
+Promotion Count 36 Months                 <.0001        0.6097        <.0001        <.0001        <.0001        <.0001        0.5076        <.0001        <.0001        0.3127        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+PromCntAll                               0.07736      -0.05790       0.29037       0.79241       0.21357       0.74565      -0.04787      -0.02539      -0.16142      -0.03771      -0.19831       0.85900
+Promotion Count All Months                <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0125        <.0001        0.0008        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+PromCntCard12                            0.04563       0.00700       0.34801       0.24157       0.27867       0.18196       0.01580       0.02550      -0.01320       0.01536      -0.34199       0.12684
+Promotion Count Card 12 Months            <.0001        0.6264        <.0001        <.0001        <.0001        <.0001        0.1200        0.0121        0.1938        0.1721        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+PromCntCard36                            0.09799      -0.11237       0.59710       0.43088       0.64021       0.45466      -0.11029      -0.09772      -0.15223      -0.04199      -0.17207       0.25804
+Promotion Count Card 36 Months            <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0002        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+PromCntCardAll                           0.07395      -0.09767       0.32185       0.77047       0.23752       0.77888      -0.08084      -0.05686      -0.21432      -0.07436      -0.10844       0.90640
+Promotion Count Card All Months           <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+StatusCatStarAll                         0.11063      -0.21540       0.45188       0.59755       0.40903       0.64683      -0.21351      -0.22574      -0.29344      -0.24205      -0.12544       0.52863
+Status Category Star All Months           <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+DemAge                                   0.05070      -0.05614       0.06796       0.19821       0.04585       0.19084      -0.05193      -0.04125      -0.07738      -0.03362      -0.09253       0.23629
+Age                                       <.0001        0.0007        <.0001        <.0001        <.0001        <.0001        <.0001        0.0004        <.0001        0.0097        <.0001        <.0001
+                                            7279          3679          7279          7279          7279          7279          7279          7279          7279          5908          7279          7279
+
+DemMedHomeValue                          0.05457       0.12618      -0.06320      -0.07020      -0.03566      -0.06537       0.11245       0.11744       0.11819       0.11956       0.00336      -0.05702
+Median Home Value Region                  <.0001        <.0001        <.0001        <.0001        0.0004        <.0001        <.0001        <.0001        <.0001        <.0001        0.7405        <.0001
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+DemPctVeterans                           0.01264      -0.02163       0.01293      -0.00360       0.00954       0.00589      -0.02110      -0.02675      -0.03481      -0.03160       0.04315       0.01981
+Percent Veterans Region                   0.2136        0.1323        0.2033        0.7234        0.3477        0.5618        0.0378        0.0085        0.0006        0.0050        <.0001        0.0512
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+DemMedIncome                             0.01344       0.02913      -0.04705      -0.03381      -0.02543      -0.02534       0.03573       0.02879       0.03179       0.04587       0.01355       0.00014
+Median Income Region                      0.1860        0.0426        <.0001        0.0009        0.0123        0.0126        0.0004        0.0046        0.0018        <.0001        0.1822        0.9888
+                                            9686          4843          9686          9686          9686          9686          9686          9686          9686          7906          9686          9686
+
+                                                                             Pearson Correlation Coefficients 
+                                                                                Prob > |r| under H0: Rho=0 
+                                                                                   Number of Observations
+ 
+                                                                                                                              Status                      DemMed
+                                            Prom          Prom       PromCnt       PromCnt       PromCnt       PromCnt       CatStar                        Home        DemPct        DemMed
+                                           Cnt12         Cnt36           All        Card12        Card36       CardAll           All        DemAge         Value      Veterans        Income
+
+TargetB                                  0.04859       0.06849       0.07736       0.04563       0.09799       0.07395       0.11063       0.05070       0.05457       0.01264       0.01344
+Target Gift Flag                          <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.2136        0.1860
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+TargetD                                  0.06449       0.00734      -0.05790       0.00700      -0.11237      -0.09767      -0.21540      -0.05614       0.12618      -0.02163       0.02913
+Target Gift Amount                        <.0001        0.6097        <.0001        0.6264        <.0001        <.0001        <.0001        0.0007        <.0001        0.1323        0.0426
+                                            4843          4843          4843          4843          4843          4843          4843          3679          4843          4843          4843
+
+GiftCnt36                                0.19618       0.39392       0.29037       0.34801       0.59710       0.32185       0.45188       0.06796      -0.06320       0.01293      -0.04705
+Gift Count 36 Months                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.2033        <.0001
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftCntAll                               0.31216       0.47966       0.79241       0.24157       0.43088       0.77047       0.59755       0.19821      -0.07020      -0.00360      -0.03381
+Gift Count All Months                     <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.7234        0.0009
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftCntCard36                            0.16334       0.28100       0.21357       0.27867       0.64021       0.23752       0.40903       0.04585      -0.03566       0.00954      -0.02543
+Gift Count Card 36 Months                 <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0004        0.3477        0.0123
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftCntCardAll                           0.18381       0.38417       0.74565       0.18196       0.45466       0.77888       0.64683       0.19084      -0.06537       0.00589      -0.02534
+Gift Count Card All Months                <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.5618        0.0126
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftAvgLast                              0.07393       0.00673      -0.04787       0.01580      -0.11029      -0.08084      -0.21351      -0.05193       0.11245      -0.02110       0.03573
+Gift Amount Last                          <.0001        0.5076        <.0001        0.1200        <.0001        <.0001        <.0001        <.0001        <.0001        0.0378        0.0004
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftAvg36                                0.08364       0.05201      -0.02539       0.02550      -0.09772      -0.05686      -0.22574      -0.04125       0.11744      -0.02675       0.02879
+Gift Amount Average 36 Months             <.0001        <.0001        0.0125        0.0121        <.0001        <.0001        <.0001        0.0004        <.0001        0.0085        0.0046
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftAvgAll                               0.08467      -0.08309      -0.16142      -0.01320      -0.15223      -0.21432      -0.29344      -0.07738       0.11819      -0.03481       0.03179
+Gift Amount Average All Months            <.0001        <.0001        <.0001        0.1938        <.0001        <.0001        <.0001        <.0001        <.0001        0.0006        0.0018
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftAvgCard36                            0.09056       0.01136      -0.03771       0.01536      -0.04199      -0.07436      -0.24205      -0.03362       0.11956      -0.03160       0.04587
+Gift Amount Average Card 36 Months        <.0001        0.3127        0.0008        0.1721        0.0002        <.0001        <.0001        0.0097        <.0001        0.0050        <.0001
+                                            7906          7906          7906          7906          7906          7906          7906          5908          7906          7906          7906
+
+GiftTimeLast                            -0.53306      -0.31802      -0.19831      -0.34199      -0.17207      -0.10844      -0.12544      -0.09253       0.00336       0.04315       0.01355
+Time Since Last Gift                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.7405        <.0001        0.1822
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+GiftTimeFirst                            0.14901       0.41934       0.85900       0.12684       0.25804       0.90640       0.52863       0.23629      -0.05702       0.01981       0.00014
+Time Since First Gift                     <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0512        0.9888
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+PromCnt12                                1.00000       0.77000       0.52326       0.66180       0.36902       0.33257       0.16156       0.09549       0.03076      -0.05230       0.02649
+Promotion Count 12 Months                               <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.0025        <.0001        0.0091
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+PromCnt36                                0.77000       1.00000       0.73301       0.70976       0.63935       0.64895       0.35252       0.11638       0.00770      -0.01626       0.03488
+Promotion Count 36 Months                 <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        <.0001        0.4487        0.1097        0.0006
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+PromCntAll                               0.52326       0.73301       1.00000       0.41159       0.44948       0.94615       0.54864       0.21808      -0.02438      -0.00795       0.01860
+Promotion Count All Months                <.0001        <.0001                      <.0001        <.0001        <.0001        <.0001        <.0001        0.0164        0.4341        0.0671
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+PromCntCard12                            0.66180       0.70976       0.41159       1.00000       0.61513       0.40760       0.19431       0.04482       0.00675      -0.01626       0.03932
+Promotion Count Card 12 Months            <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        0.0001        0.5063        0.1095        0.0001
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+PromCntCard36                            0.36902       0.63935       0.44948       0.61513       1.00000       0.48360       0.37820       0.07776      -0.01500       0.00968       0.01711
+Promotion Count Card 36 Months            <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        0.1400        0.3409        0.0922
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+PromCntCardAll                           0.33257       0.64895       0.94615       0.40760       0.48360       1.00000       0.57762       0.21352      -0.04116       0.00982       0.01233
+Promotion Count Card All Months           <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        <.0001        0.3338        0.2250
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+StatusCatStarAll                         0.16156       0.35252       0.54864       0.19431       0.37820       0.57762       1.00000       0.14112      -0.06298       0.01616      -0.01843
+Status Category Star All Months           <.0001        <.0001        <.0001        <.0001        <.0001        <.0001                      <.0001        <.0001        0.1117        0.0697
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+DemAge                                   0.09549       0.11638       0.21808       0.04482       0.07776       0.21352       0.14112       1.00000      -0.00126       0.09063      -0.02595
+Age                                       <.0001        <.0001        <.0001        0.0001        <.0001        <.0001        <.0001                      0.9141        <.0001        0.0268
+                                            7279          7279          7279          7279          7279          7279          7279          7279          7279          7279          7279
+
+DemMedHomeValue                          0.03076       0.00770      -0.02438       0.00675      -0.01500      -0.04116      -0.06298      -0.00126       1.00000      -0.05343       0.31888
+Median Home Value Region                  0.0025        0.4487        0.0164        0.5063        0.1400        <.0001        <.0001        0.9141                      <.0001        <.0001
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+DemPctVeterans                          -0.05230      -0.01626      -0.00795      -0.01626       0.00968       0.00982       0.01616       0.09063      -0.05343       1.00000       0.04260
+Percent Veterans Region                   <.0001        0.1097        0.4341        0.1095        0.3409        0.3338        0.1117        <.0001        <.0001                      <.0001
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686
+
+DemMedIncome                             0.02649       0.03488       0.01860       0.03932       0.01711       0.01233      -0.01843      -0.02595       0.31888       0.04260       1.00000
+Median Income Region                      0.0091        0.0006        0.0671        0.0001        0.0922        0.2250        0.0697        0.0268        <.0001        <.0001              
+                                            9686          9686          9686          9686          9686          9686          9686          7279          9686          9686          9686

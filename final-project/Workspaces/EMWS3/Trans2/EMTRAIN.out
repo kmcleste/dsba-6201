@@ -1,0 +1,26 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+            Measurement    Frequency
+Role           Level         Count
+
+INPUT        BINARY             2   
+INPUT        INTERVAL          21   
+INPUT        NOMINAL            3   
+REJECTED     INTERVAL           1   
+TARGET       BINARY             1   
+ 
+                                                                                                                                                                                                                                                                
+ 
+Computed Transformations
+(maximum 500 observations printed)
+
+                              Input
+Input Name          Role      Level      Name                      Level       Formula
+
+GiftAll             INPUT    INTERVAL    PCTL_GiftAll             NOMINAL    Quantile(4)
+GiftCntAll          INPUT    INTERVAL    PCTL_GiftCntAll          NOMINAL    Quantile(4)
+GiftTimeLast_REV    INPUT    INTERVAL    PCTL_GiftTimeLast_REV    NOMINAL    Quantile(4)

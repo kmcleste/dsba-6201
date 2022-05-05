@@ -1,0 +1,41 @@
+*------------------------------------------------------------*
+* Report Log
+Date:                May 05, 2022
+Time:                01:09:37
+*------------------------------------------------------------*
+16047  %let syscc = 0;
+16048  %inc "C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5916_DESKTOP-IGMQS45_\USERREPORTCODE.sas";
+NOTE: %INCLUDE (level 1) file C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5916_DESKTOP-IGMQS45_\USERREPORTCODE.sas is file C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5916_DESKTOP-IGMQS45_\USERREPORTCODE.sas.
+16049 +/* Set image path for ODS */
+16050 +ODS LISTING GPATH="C:\Users\Kyle McLester\Desktop\dsba-6201\project-02\images\ODS_PLOTS\veterans";
+16051 +
+16052 +/* Enable ODS Graphics */
+16053 +ODS GRAPHICS ON;
+16054 +
+16055 +/* univariate analysis */
+16056 +PROC UNIVARIATE data=DATA.PVA97NK NORMAL PLOT;
+16057 +run;
+
+NOTE: The PROCEDURE UNIVARIATE printed pages 2-24.
+NOTE: PROCEDURE UNIVARIATE used (Total process time):
+      real time           12.37 seconds
+      cpu time            3.98 seconds
+      
+
+16058 +
+16059 +PROC CORR DATA=DATA.PVA97NK COV PLOTS=MATRIX;
+16060 +run;
+
+WARNING: The scatter plot matrix with more than 5000 points has been suppressed. Use the PLOTS(MAXPOINTS= ) option in the PROC CORR statement to change or override the cutoff.
+NOTE: The PROCEDURE CORR printed page 25.
+NOTE: PROCEDURE CORR used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+NOTE: %INCLUDE (level 1) ending.
+16061  /* Reset EM Options */
+16062  options formchar="|----|+|---+=|-/\<>*";
+16063  options nocenter ls=256 ps=10000;
+16064  goptions reset=all device=GIF NODISPLAY;
+

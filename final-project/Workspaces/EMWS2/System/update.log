@@ -9,39 +9,13 @@ Traverser: Beginning flow traversal
 *------------------------------------------------------------* 
 * 
 * Ids : Beginning Update 
-* datetime : 13APR2022:14:14:20 
+* datetime : 05MAY2022:00:59:50 
 * 
 *------------------------------------------------------------* 
-29033      %let _HPDMGRIDHOST=;
-29034      %let _HPDMGRIDINSTALLLOC=;
-29035      %let _HPDMGRIDDATASERVER=;
-29036      %hpdm_gridSetOPtions;
-
-NOTE: DATA statement used (Total process time):
-      real time           0.00 seconds
-      cpu time            0.00 seconds
-      
-
-
-*------------------------------------------------------------* 
-* 
-* Ids : End Update 
-* datetime : 13APR2022:14:14:20 
-* 
-*------------------------------------------------------------* 
-Traverser: WaitingNode "TRANS2" 
-Traverser: WaitingNode "TRANS3" 
-traverser_readyNode_note 
-*------------------------------------------------------------* 
-* 
-* Trans : Beginning Update 
-* datetime : 13APR2022:14:14:21 
-* 
-*------------------------------------------------------------* 
-29056      %let _HPDMGRIDHOST=;
-29057      %let _HPDMGRIDINSTALLLOC=;
-29058      %let _HPDMGRIDDATASERVER=;
-29059      %hpdm_gridSetOPtions;
+24138      %let _HPDMGRIDHOST=;
+24139      %let _HPDMGRIDINSTALLLOC=;
+24140      %let _HPDMGRIDDATASERVER=;
+24141      %hpdm_gridSetOPtions;
 
 NOTE: DATA statement used (Total process time):
       real time           0.01 seconds
@@ -51,46 +25,21 @@ NOTE: DATA statement used (Total process time):
 
 *------------------------------------------------------------* 
 * 
-* Trans : End Update 
-* datetime : 13APR2022:14:14:21 
-* 
-*------------------------------------------------------------* 
-Traverser: WaitingNode "TRANS3" 
-traverser_readyNode_note 
-*------------------------------------------------------------* 
-* 
-* Trans2 : Beginning Update 
-* datetime : 13APR2022:14:14:21 
-* 
-*------------------------------------------------------------* 
-29079      %let _HPDMGRIDHOST=;
-29080      %let _HPDMGRIDINSTALLLOC=;
-29081      %let _HPDMGRIDDATASERVER=;
-29082      %hpdm_gridSetOPtions;
-
-NOTE: DATA statement used (Total process time):
-      real time           0.00 seconds
-      cpu time            0.01 seconds
-      
-
-
-*------------------------------------------------------------* 
-* 
-* Trans2 : End Update 
-* datetime : 13APR2022:14:14:21 
+* Ids : End Update 
+* datetime : 05MAY2022:00:59:50 
 * 
 *------------------------------------------------------------* 
 traverser_readyNode_note 
 *------------------------------------------------------------* 
 * 
-* Trans3 : Beginning Update 
-* datetime : 13APR2022:14:14:22 
+* EMCODE2 : Beginning Update 
+* datetime : 05MAY2022:00:59:50 
 * 
 *------------------------------------------------------------* 
-29102      %let _HPDMGRIDHOST=;
-29103      %let _HPDMGRIDINSTALLLOC=;
-29104      %let _HPDMGRIDDATASERVER=;
-29105      %hpdm_gridSetOPtions;
+24173      %let _HPDMGRIDHOST=;
+24174      %let _HPDMGRIDINSTALLLOC=;
+24175      %let _HPDMGRIDDATASERVER=;
+24176      %hpdm_gridSetOPtions;
 
 NOTE: DATA statement used (Total process time):
       real time           0.00 seconds
@@ -100,11 +49,11 @@ NOTE: DATA statement used (Total process time):
 
 *------------------------------------------------------------* 
 * 
-* Trans3 : End Update 
-* datetime : 13APR2022:14:14:22 
+* EMCODE2 : End Update 
+* datetime : 05MAY2022:00:59:50 
 * 
 *------------------------------------------------------------* 
 Traverser: Run Completed 
-29106      proc printto;
-29107      run;
+24177      proc printto;
+24178      run;
 

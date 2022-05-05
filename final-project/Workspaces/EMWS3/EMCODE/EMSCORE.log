@@ -1,0 +1,41 @@
+*------------------------------------------------------------*
+* Score Log
+Date:                May 05, 2022
+Time:                01:09:36
+*------------------------------------------------------------*
+15672  %let syscc = 0;
+15673  *------------------------------------------------------------*;
+15674  * EMCODE: Scoring DATA data;
+15675  *------------------------------------------------------------*;
+15676  data EMWS3.EMCODE_TRAIN
+15677  / view=EMWS3.EMCODE_TRAIN
+15678  ;
+15679  set EMWS3.Ids_DATA
+15680  ;
+15681  run;
+
+NOTE: DATA STEP view saved on file EMWS3.EMCODE_TRAIN.
+NOTE: A stored DATA STEP view cannot run under a different operating system.
+NOTE: View EMWS3.IDS_DATA.VIEW used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.03 seconds
+      
+NOTE: DATA statement used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.03 seconds
+      
+
+15682  quit;
+
+15684  *------------------------------------------------------------*;
+15685  * EMCODE: Computing metadata for TRAIN data;
+15686  *------------------------------------------------------------*;
+
+NOTE: View EMWS3.EMCODE_TRAIN.VIEW used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+      
+NOTE: View EMWS3.EMCODE_TRAIN.VIEW used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+      

@@ -1,0 +1,44 @@
+*------------------------------------------------------------*
+* Report Log
+Date:                May 04, 2022
+Time:                22:42:26
+*------------------------------------------------------------*
+PERFORMANCE  DETAILS
+15504  %let syscc = 0;
+15505  %inc "C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5336_DESKTOP-IGMQS45_\USERREPORTCODE.sas";
+NOTE: %INCLUDE (level 1) file C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5336_DESKTOP-IGMQS45_\USERREPORTCODE.sas is file C:\Users\KYLEMC~1\AppData\Local\Temp\SAS Temporary Files\_TD5336_DESKTOP-IGMQS45_\USERREPORTCODE.sas.
+15506 +/* Set image path for ODS */
+15507 +ODS LISTING GPATH="C:\Users\Kyle McLester\Desktop\dsba-6201\project-02\images\ODS_PLOTS";
+15508 +
+15509 +/* Enable ODS Graphics */
+15510 +ODS GRAPHICS ON;
+15511 +
+15512 +/* univariate analysis */
+15513 +PROC UNIVARIATE data=DATA.CATALOG2010 NORMAL PLOT;
+15514 +    var RESPOND ACTBUY BUYPROP CATALOGCNT DAYLAST DOLINDEA DOLINDET DOLL24 DOLNETDA DOLNETDT DTBUYLST DTBUYORG FREQPRCH MONLAST ORDERSIZE TENURE;
+15515 +run;
+
+NOTE: The PROCEDURE UNIVARIATE printed pages 1-16.
+NOTE: PROCEDURE UNIVARIATE used (Total process time):
+      real time           12.53 seconds
+      cpu time            4.70 seconds
+      
+
+15516 +
+15517 +PROC CORR DATA=DATA.CATALOG2010 COV PLOTS=MATRIX;
+15518 +    var RESPOND ACTBUY BUYPROP CATALOGCNT DAYLAST DOLINDEA DOLINDET DOLL24 DOLNETDA DOLNETDT DTBUYLST DTBUYORG FREQPRCH MONLAST ORDERSIZE TENURE;
+15519 +run;
+
+WARNING: The scatter plot matrix with more than 5000 points has been suppressed. Use the PLOTS(MAXPOINTS= ) option in the PROC CORR statement to change or override the cutoff.
+NOTE: The PROCEDURE CORR printed page 17.
+NOTE: PROCEDURE CORR used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.07 seconds
+      
+
+NOTE: %INCLUDE (level 1) ending.
+15520  /* Reset EM Options */
+15521  options formchar="|----|+|---+=|-/\<>*";
+15522  options nocenter ls=256 ps=10000;
+15523  goptions reset=all device=GIF NODISPLAY;
+

@@ -1,0 +1,1 @@
+GiftAll =GiftAvgAll*GiftCntAll ;
